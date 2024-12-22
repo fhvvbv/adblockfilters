@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：CJX's Annoyance List、EasyPrivacy、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、LegitimateURLShortener、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、Ad Wars、AWAvenue Ads Rule、hagezi-allowlist、大圣、1007、1024 hosts、AdAway、yhost、anti-ad、Blackmatrix7、217heidai。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20241222004655
-! Last modified: 2024/12/22 00:46:55
-! Blocked Filters: 29829
+! Version: 20241222105954
+! Last modified: 2024/12/22 10:59:54
+! Blocked Filters: 29827
 !
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -532,6 +532,7 @@
 ###title_content_meiyuan
 ###title_content_meiyuan1
 ###top-gg-container
+###top-link-social
 ###top100counter
 ###topNavad
 ###top_ads0
@@ -853,7 +854,6 @@
 ##.ayx[style^="position: fixed;bottom"]
 ##.b-article__shares
 ##.b-article__social
-##.b-btm-fastsocial
 ##.b-mobile-spots
 ##.b-post__social_holder
 ##.b-post_social
@@ -1680,7 +1680,6 @@
 ##.social-area-syncer
 ##.social-bar-wrapper
 ##.social-block
-##.social-block-div
 ##.social-block-links
 ##.social-block-share
 ##.social-btn-block
@@ -1718,7 +1717,6 @@
 ##.social-shares
 ##.social-sidebar
 ##.social-sidebar-wrap
-##.social-sitewide
 ##.social-sticky
 ##.social-tab
 ##.social-tools
@@ -15245,7 +15243,6 @@ chen-xing/figure_bed*
 chengdu.cn###ad_cover,.ad-banner,#sideBox[style],[class^="ad-"]
 chengdu.cn##.pop_box
 chengdu.cn,oeeee.com,ofweek.com##div[class^="ad-"]
-chernozem.info,tv5.zp.ua,inforesist.org,zabeba.li###social-community-popup
 cheshi.com##.ad_980105
 cheshi.com##.ad_div_content,#ad_crazy,.ad_1000,.side_banr,[id^="ad_pos_"]
 cheshi.com##div[id^="ad_pos_"]
@@ -22279,6 +22276,7 @@ ver.movistarplus.es,gamereactor.de##.socialIcons
 veranda.com,wetter.com#?#div[class^="sc-"]:has(> div.ad-container)
 versa.iol.pt,pik.bg,willyoupressthebutton.com,selfie.iol.pt,tvi.iol.pt,cnnportugal.iol.pt,front-end-tools.com,jp.sharp,interior.ru,maclife.de,animeindo.cc,dandanzan.cc,hellomagazine.com,spaziogames.it,themeparktourist.com,ntv.ru,mail.ru,lady.mail.ru,caytvhaber.com,wirtualnemedia.pl,dtf.ru,vc.ru,hitc.com##.shares
 veryansintv.com,airlinehaber.com,muglayenigun.com,coinotag.com,haberolduk.com##.kanews-article-share
+vesma.today,rachidscience.com,gazetevatan.com##.share2
 vesti-ua.net,udaff.com##.counters
 vesti.kz,istories.media,ukr-mova.in.ua,gamer-info.com,fashion-likes.ru,orda.kz,rtvi.com,a-angel.ru,xbox.in.ua,gazetadaily.ru,anekdotikov.net,ex-news.net,kinomax.ru,utro.ru##.soc
 vgtime.com##.vgart_top
