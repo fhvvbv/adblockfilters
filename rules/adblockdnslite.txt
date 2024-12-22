@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：CJX's Annoyance List、EasyPrivacy、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、LegitimateURLShortener、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、Ad Wars、AWAvenue Ads Rule、hagezi-allowlist、大圣、1007、1024 hosts、AdAway、yhost、anti-ad、Blackmatrix7、217heidai。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20241222105954
-! Last modified: 2024/12/22 10:59:54
-! Blocked domains: 5403
+! Version: 20241222163343
+! Last modified: 2024/12/22 16:33:43
+! Blocked domains: 5400
 ! unBlocked domains: 25
 !
 ||00xvppy.cn^
@@ -535,7 +535,6 @@
 ||tracking.agora.io^
 ||ssb.ah499.com^
 ||ahov1.top^
-||www.aidjhg.cn^
 ||aihaoduo.cn^
 ||www.aihuishou.com^
 ||aili.com^
@@ -1824,7 +1823,6 @@
 ||cpux.gmud.top^
 ||ad.gmw.cn^
 ||channel-analysis-js.gmw.cn^
-||gnojnliickl.vip^
 ||gnrnws.cn^
 ||go2yd.com^
 ||gocvawe.cn^
@@ -2285,7 +2283,6 @@
 ||innity.net^
 ||inping.com^
 ||click.inplayable.com^
-||inpost-sp.top^
 ||inpost-vip.shop^
 ||inpostt.xin^
 ||qlvzjmtg.inqku.cn^
