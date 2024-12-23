@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：CJX's Annoyance List、EasyPrivacy、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、LegitimateURLShortener、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、Ad Wars、AWAvenue Ads Rule、hagezi-allowlist、大圣、1007、1024 hosts、AdAway、yhost、anti-ad、Blackmatrix7、217heidai。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20241223003543
-! Last modified: 2024/12/23 00:35:43
-! Blocked Filters: 29827
+! Version: 20241223105636
+! Last modified: 2024/12/23 10:56:36
+! Blocked Filters: 29800
 !
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -161,7 +161,6 @@
 ###bottomads
 ###bottombanner
 ###bottommob.bottommob
-###bottomsns
 ###breadCrumb + .c + .t[style="margin-top:8px"]
 ###breadCrumb + .t[style="margin-top:8px"]
 ###btn-call-app
@@ -1368,6 +1367,7 @@
 ##.nc_socialPanel
 ##.new-free-ad
 ##.new-recommend_wrapper__oj9SS
+##.newGigyaShare
 ##.news-ad
 ##.newsDetailAssets__sns
 ##.news_social_button
@@ -1477,7 +1477,6 @@
 ##.post-share-widget
 ##.post-social-facebook
 ##.post-social-goog
-##.post-social-gplus
 ##.post-social-pin
 ##.post-social-vk
 ##.post-title + .metadata + .entry > div > div > a[href^="/"][href$="/"] > img
@@ -11501,22 +11500,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 360kan.com##.js-playicon[href*="wan.360.cn/"]
 360kan.com##.js-welcome
 360kan.com##.s-topad,.p-ys-ad,.b-ifradjx,div.p-ad-two,.p-ad,.topbar-ad,.detail_ad
-360kuai.com###content_top_gg
-360kuai.com###pendant_interactive_gg
-360kuai.com###task__modal__container
-360kuai.com###xunjia-modal-btn
-360kuai.com##.article__content__yyconfig
-360kuai.com##.bottom_rectangle_gg_outer_box
-360kuai.com##.detail-top-banner
-360kuai.com##.detail__top__title__under
-360kuai.com##.float--left.right_aside_wrapper
-360kuai.com##.g4.undefined
-360kuai.com##.k-float-btn__qrcode__body
-360kuai.com##.marketing-box
-360kuai.com##.mid-right__operate-adv__container
-360kuai.com##.novel_galery_icon
-360kuai.com##.side-wrapper
-360kuai.com##.taskbar
 360kuai.com,hao.360.com###cangbao_redbags
 365kl.net##.a_h,#eis_pad1,#eis_pad2,.yb_banner,.a_pb,.a_f
 365xuet.com##.cd-items
@@ -11822,8 +11805,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 52vfx.com#@##head_ad
 52wmb.com###popContent
 52wubi.com##.top960
-52z.com###softdown
-52z.com###softdown>div,div.syGaosuDa:first-child
 55188.com###center-pic
 55188.com###top-pic
 55188.com##.gg,div.ad_xia_pic.ggtishiallpic,DIV.gg_head,DIV.ad_text,DIV#ggcontArea2,DIV#ggcontArea,DIV.a1_gg.jiange2,DIV.bd_gg.jiange2,DIV.ggdistich_tit,div.fgg_head_nei,DIV.gg_foot,div[class^="ad_headerbanner_"],div.gg_tishi,div.ad_footerbanner,div[id^="ad_thread1_"].ad_textlink1,div.ad_hf,.ggdistich,[class^="gg_"]
@@ -18768,7 +18749,6 @@ ktv.jp,work-master.net##.snsicon
 kuai8.com###left_Ad
 kuai8.com###right_Ad
 kuai8.com##.Ad1
-kuaibao.qq.com##.slider-box
 kuaidi100.com##div[id][style="width: 300px;float: right;"]
 kuaidiwo.cn##[id^="queryad_"],[href^="https://s.click.taobao.com/"]
 kuaishouba.com##.index_adbox
@@ -20190,7 +20170,6 @@ parasut.com,mailonsunday.co.uk,thisismoney.co.uk,dailymail.co.uk##.button-share-
 paravi.jp,news.ntv.co.jp##.share-contents
 parismatch.com,lejdd.fr,gelatopique.com,snidel.com,autosport.com.ru,sgpress.ru##.block-share
 partitionwizard.jp,partitionwizard.com,constructionenquirer.com,minitool.com##.article-share-wrap
-partner.yahoo.co.jp,web.hh-online.jp##.Social
 pasport.org.ua,i-ua.tv,wz.lviv.ua###jursssocial
 passport.qihucdn.com/11.0.1.js
 pastelink.net,hbr-russia.ru,mel.fm##.sharing-panel
@@ -23067,7 +23046,6 @@ youth.cn##div.edu-a_dds,div.hd_banner,div.r_huandeng,div.article_d,div[class^="a
 youth.cn##div[style="width:960px;height:90px;margin:0 auto;"]
 youtube-times.com,mulberrytassel.com,gadgetfrontblog.com,fuurinblog.com,trends-mania.xyz,bamka.info##.st-sns-top
 youtube.com/api/stats/ads?
-youxi.baidu.com###coupletBanner
 ys168.com##div[style="position: fixed; width: 200px; top: 330px; right: 20px; font-size: 9pt; text-align: left;"]
 yse1234.com/template/phone/imagess/sdfwe.js
 ysgc.fun,ysgc.tv##.myui-panel_bd > div > a[target="_blank"]
@@ -23700,7 +23678,6 @@ zzzyk.com###Tinfo
 ||52rd.com/Pic/Click/
 ||52rd.com/Pic2/*_600_60
 ||52wmb.com/2014js/cn_
-||52z.com/images/52zgg/
 ||53shop.com/ime/*.js
 ||53shop.com/img/*.js
 ||53shop.com/js/dun.js
@@ -26115,7 +26092,6 @@ zzzyk.com###Tinfo
 ||g.alicdn.com/alilog^
 ||g.csdnimg.cn/asdf/*/trackad.js|$script,important
 ||g.jinti.com/f/a/a
-||g.pptv.com/game/$subdocument
 ||g.rexian.net.cn/js/
 ||galaxus.de^$removeparam=idealoid
 ||game.hiroba.dpoint.docomo.ne.jp^$removeparam=mks_referer_event
@@ -28641,7 +28617,6 @@ zzzyk.com###Tinfo
 ||static.m.sjzhushou.com^$app=com.xunlei.downloadprovider
 ||static.oschina.net/*_banner_$image
 ||static.oschina.net/uploads/space/20*.jpg|$image
-||static.qiyi.com/js/pingback/
 ||static.ws.126.net/*/adTracker.$script
 ||static.ws.126.net/*/js/sspAd.$script
 ||static.ws.126.net/f2e/products/analysis/
@@ -29395,7 +29370,6 @@ zzzyk.com###Tinfo
 ||www.technikdirekt.de^$removeparam=idealoid
 ||www.technikdirekt.de^$removeparam=sPartner
 ||www.toutiao.com/api/web_ads/
-||www.uzzf.com/skin/know/$script
 ||www.xdowns.com/js/$script
 ||www.xiazaiba.com/data/xzb_haha.js
 ||www.xxmh*.com^
@@ -29605,7 +29579,6 @@ zzzyk.com###Tinfo
 ||youtube.com^$removeparam=embeds_euri
 ||youtube.com^$removeparam=pp
 ||youtube.com^$removeparam=source_ve_path
-||youxi.baidu.com/tips/bdtips_min.js
 ||youyiya.com/Tpl/mobile/js/you
 ||youzhan.org/img/aliyun-
 ||ysdm*.ys137.com.cn^

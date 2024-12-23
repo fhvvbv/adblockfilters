@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：CJX's Annoyance List、EasyPrivacy、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、LegitimateURLShortener、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、Ad Wars、AWAvenue Ads Rule、hagezi-allowlist、大圣、1007、1024 hosts、AdAway、yhost、anti-ad、Blackmatrix7、217heidai。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20241223003543
-! Last modified: 2024/12/23 00:35:43
-! Blocked domains: 5400
+! Version: 20241223105636
+! Last modified: 2024/12/23 10:56:36
+! Blocked domains: 5387
 ! unBlocked domains: 25
 !
 ||00xvppy.cn^
@@ -211,8 +211,7 @@
 ||eclick.360doc.com^
 ||webservice.360doc.com^
 ||360in.com^
-||hye.comp.360os.com^
-||hyt.comp.360os.com^
+||360kuai.com^
 ||dl.360safe.com^
 ||down.360safe.com^
 ||inst.360safe.com^
@@ -305,6 +304,7 @@
 ||5y9nfpes.52pk.com^
 ||adm.52swine.com^
 ||api.52youtu.com^
+||52z.com^
 ||a.52zxw.com^
 ||53kf.com^
 ||54kefu.net^
@@ -536,7 +536,6 @@
 ||ssb.ah499.com^
 ||ahov1.top^
 ||aihaoduo.cn^
-||www.aihuishou.com^
 ||aili.com^
 ||aiode.cn^
 ||atiws.aipai.com^
@@ -722,7 +721,6 @@
 ||mobile.appchina.com^
 ||appdriver.cn^
 ||appgift.sinaapp.com^
-||apple-crt-portal-online.com^
 ||iadsdk.apple.com^
 ||xp.apple.com^
 ||securemetrics.apple.com.cn^
@@ -944,6 +942,7 @@
 ||wm.baidu.com^
 ||xsolid.baidu.com^
 ||yingxiao.baidu.com^
+||youxi.baidu.com^
 ||zhanzhang.baidu.com^
 ||znsv.baidu.com^
 ||httpdns.baidubce.com^
@@ -1271,7 +1270,6 @@
 ||cu-cn-north00001.gala.convection.cn^
 ||cu-cn-north00002.gala.convection.cn^
 ||coocaatv.com^
-||www.coocent.com^
 ||12.cookcai.com^
 ||cookingcute.com^
 ||coolkaba.com^
@@ -1564,7 +1562,6 @@
 ||eblnzoq.cn^
 ||ebqf.cn^
 ||jb.ecar168.cn^
-||msg.eclicks.cn^
 ||ecudsc.cn^
 ||ediuschina.com^
 ||eeeqi.cn^
@@ -2106,7 +2103,6 @@
 ||hsych.com^
 ||ht55.cn^
 ||httpdns.pro^
-||www.huabian.com^
 ||huafangzhou.com^
 ||ad.huajiao.com^
 ||api-analytics-cn.huami.com^
@@ -2284,7 +2280,6 @@
 ||inping.com^
 ||click.inplayable.com^
 ||inpost-vip.shop^
-||inpostt.xin^
 ||qlvzjmtg.inqku.cn^
 ||insenz.com^
 ||instreet.cn^
@@ -3138,7 +3133,6 @@
 ||loggate.moxigame.cn^
 ||mqwtgq.xyz^
 ||msafe.cn^
-||browser.events.data.msn.cn^
 ||srtb.msn.cn^
 ||c.msn.com.cn^
 ||business.msstatic.com^
@@ -3285,8 +3279,6 @@
 ||click.oneplus.cn^
 ||open.oneplus.net^
 ||onethingpcs.com^
-||ads.oneway.mobi^
-||tl.oneway.mobi^
 ||svibeacon.onezapp.com^
 ||vibeaconstr.onezapp.com^
 ||onjh.cn^
@@ -3359,7 +3351,6 @@
 ||pdiabbi.cn^
 ||pdweoyw.cn^
 ||eloqua.pearsonvue.com.cn^
-||www.peiyou.com^
 ||adver.pengyou.com^
 ||penxiangge.com^
 ||counter.people.cn^
@@ -3425,10 +3416,9 @@
 ||app.aplus.pptv.com^
 ||as.aplus.pptv.com^
 ||de.as.pptv.com^
+||g.pptv.com^
 ||jp.as.pptv.com^
 ||pp2.pptv.com^
-||static.g.pptv.com^
-||tj.g.pptv.com^
 ||pqjprom.cn^
 ||pqzjki.cn^
 ||pricklyrose.cn^
@@ -3519,6 +3509,7 @@
 ||meta.video.qiyi.com^
 ||msg.video.qiyi.com^
 ||msg2.video.qiyi.com^
+||static.qiyi.com^
 ||uestat.video.qiyi.com^
 ||mall0.qiyipic.com^
 ||paopao0.qiyipic.com^
@@ -3611,6 +3602,7 @@
 ||jqmt.qq.com^
 ||jsapi.html5.qq.com^
 ||kde.qq.com^
+||kuaibao.qq.com^
 ||l.qq.com^
 ||lcsdk.3g.qq.com^
 ||lives.l.ott.video.qq.com^
@@ -4006,7 +3998,6 @@
 ||rs.sinajs.cn^
 ||simg.sinajs.cn^
 ||sinawap.com^
-||mail.siom.ac.cn^
 ||sitebot.cn^
 ||sitesite.cn^
 ||sixiuwl.cn^
@@ -4356,7 +4347,6 @@
 ||tracking.mail.ti.com.cn^
 ||tiandi.com^
 ||tianji520.cn^
-||counter.tianjimedia.com^
 ||tianmidian.com^
 ||i.tianqi.com^
 ||ip.tianqiapi.com^
@@ -4449,8 +4439,6 @@
 ||lm1.tuliu.com^
 ||analy.tuniu.cn^
 ||tusdk.com^
-||asdkd.tutuapp.com^
-||log.tutuapp.com^
 ||smetrics.tuvsud.cn^
 ||tuvtpxp.cn^
 ||appwall.tv2phone.cn^
@@ -4857,7 +4845,6 @@
 ||api.xiaohuxi.cn^
 ||adtrack.xiaojukeji.com^
 ||dorado.xiaojukeji.com^
-||api.d.xiaomi.com^
 ||api.hybrid.xiaomi.com^
 ||api.installer.xiaomi.com^
 ||api.miui.security.xiaomi.com^
