@@ -1,10 +1,10 @@
 ![Adblock Plus 2.0]
-! Checksum: 1lOUVEDIQJlkcdta4roLOw
-! Diff-Path: ../patches/17/17-s-1734694922-3600.patch
+! Checksum: imm8ooJ8oChdyaPMKWvlUw
+! Diff-Path: ../patches/17/17-s-1734961037-3600.patch
 ! Title: AdGuard URL Tracking filter
 ! Description: Filter that enhances privacy by removing tracking parameters from URLs.
-! Version: 2.0.10.2
-! TimeUpdated: 2024-12-20T11:37:57+00:00
+! Version: 2.0.10.5
+! TimeUpdated: 2024-12-23T13:33:31+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -383,6 +383,10 @@ $removeparam=fb_source
 ! Bad: ||example.org^$xmlhttprequest,redirect=noopvast-3.0 (for instance, should be in specific.txt)
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/195153
+||vpnpay.io$removeparam=sr
+||vpnpay.io$removeparam=pr
+||vpnpay.io$removeparam=arf
 ! https://github.com/AdguardTeam/AdguardFilters/issues/194916
 ||fanatical.com^$removeparam=cj_pid
 ||fanatical.com^$removeparam=cj_aid
@@ -1052,7 +1056,7 @@ keepstreams.com^$removeparam=downloadmode
 ||v.daum.net^$removeparam=x_imp
 ||v.daum.net^$removeparam=x_hk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/163568
-$removeparam=af_id,domain=dmm.co.jp|dmm.com
+!$removeparam=af_id,domain=dmm.co.jp|dmm.com
 $removeparam=dmmref,domain=dmm.co.jp|dmm.com
 $removeparam=i3_ref,domain=dmm.co.jp|dmm.com
 $removeparam=i3_ord,domain=dmm.co.jp|dmm.com
@@ -2608,6 +2612,8 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_tracking_params
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/194309 BookLive link
+@@||booklive.jp/vcentry/landing?$removeparam=vc_lpp
 ! https://www.reddit.com/r/uBlockOrigin/comments/1h1aaj7/ubo_on_firefox_android_is_causing_a_refresh_loop/
 @@||google.*/maps^$removeparam=utm_campaign
 ! https://github.com/DandelionSprout/adfilt/discussions/163#discussioncomment-11375067
