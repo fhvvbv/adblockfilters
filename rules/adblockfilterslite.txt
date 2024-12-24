@@ -3,9 +3,9 @@
 ! Description: 适用于AdGuard的去广告合并规则，每8个小时更新一次。规则源：CJX's Annoyance List、EasyPrivacy、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、LegitimateURLShortener、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、Ad Wars、AWAvenue Ads Rule、hagezi-allowlist、大圣、1007、1024 hosts、AdAway、yhost、anti-ad、Blackmatrix7、217heidai。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20241224104405
-! Last modified: 2024/12/24 10:44:05
-! Blocked Filters: 29815
+! Version: 20241224163843
+! Last modified: 2024/12/24 16:38:43
+! Blocked Filters: 29818
 !
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -465,7 +465,6 @@
 ###share_twitter
 ###sharebar
 ###sharebox
-###shareinit
 ###shares-id
 ###sharethis-wrapper
 ###sharingfooter
@@ -498,6 +497,7 @@
 ###social_widget
 ###social_widgets
 ###socialbuttons
+###socialbuttonsbox
 ###socializ
 ###socialize
 ###socializeit
@@ -1674,6 +1674,7 @@
 ##.soc_like
 ##.soc_share
 ##.soc_tabs
+##.socbclass
 ##.socbuttons
 ##.sociaPayLasim
 ##.sociable
@@ -11396,7 +11397,6 @@ $~xmlhttprequest,removeparam=r,domain=tv2.no|linode.com|ledger.*|mrgay.com|odyse
 23.224.199.*/@apix/v1/series
 233.com##.gads
 233.com##.gads2
-24.hu,babaszoba.hu,hazipatika.com##.fb-exit-popup-container
 24h.pchome.com.tw,find.ruten.com.tw##.site_evt
 24k99.com##.jy_24k99_suspended_ad
 24k99.com,fx168.com##.ny2018_txtLink
@@ -15055,6 +15055,7 @@ boke112.com##div.abc-pc.abc-site
 boke112.com,dzbhdm.net,mzh.ren,whsir.com##a[href*=".aliyun.com"]
 boke112.com,ruanyifeng.com##a[href^="http://t.cn/"]
 boke112.com,techweb.com.cn##a[href*=".aliyun.com"]
+bokumachi-anime.com,kaiju-no8.net,mdzol.com,adrenaline.com.br##.news__share
 bolasport.com,motorplus-online.com,gridoto.com##.read_content--share
 bolavip.com,carwale.com##.article-social-links
 bollywoodlife.com,foursquare.com##.shareSocial
@@ -15849,7 +15850,6 @@ dict.cn##.search-right-ad5
 dict.cn##.search-right-ad7
 dict.cn##div[id^="div-gpt-ad-"]
 didispace.com##.widget-wrap > p[style="text-align: left;padding-bottom: 20px;line-height: 30px;"]
-digital.com,mirai-media.net,geminiadvisory.io,chimerarevo.com##.addtoany_shortcode
 digital.izu-np.co.jp,agrinews.co.jp##.hk-sns
 digital.izu-np.co.jp,experience.dropbox.com,hostlove.com,videohelp.com##a[href^="mailto:?subject="]
 dila.ua,digitalstudiome.com##.article-share-block
@@ -15948,7 +15948,6 @@ dongao.com##div[class^="fu_"]
 dongao.com,zgsyz.com###ad
 doope.jp,netgeek.biz,nikonrumors.com,szifon.com##.wptouch-showcase
 doorblog.jp,pachinkopachisro.com,blog.livedoor.jp,blog.jp#?#.plugin-memo > div.side > div.ninja-recommend-block:upward(2)
-doraeiga.com,movie-highspeed.com###shareWrap
 doramalive.tv,androidies.ru,animestars.org##.pmovie__share
 dospara.co.jp,gazetevatan.com,pastebin.com##.tweet
 dospara.co.jp,peachjohn.co.jp,comss.ru##span[data-target="share-review"]
@@ -17002,6 +17001,7 @@ gqjapan.jp,vogue.co.jp##div[class^="TwoColumnsWithHorizontalAdMosaicWrapper"]
 gqmiddleeast.com,baynews9.com,ny1.com##.share-bar-container
 grafana.com,ezneering.com,flicks.com.au,gamesatis.com,makyajtrendi.com,cepfix.com##.blog-share
 gramota.ru,rusvesna.su,stavka.tv,thefreedictionary.com##body .share-block
+grapee.jp,news.kmib.co.kr##.btn_tw
 greatfallstribune.com,onlineathens.com,usatoday.com,freep.com#$#.gnt_xmst + div[data-tb-region] { margin: unset !important; }
 greenxf.com###speed-downloader
 greenxf.com##.yinsu_xz,.app_fix_wrap,#BZlocationID2,[id^="BZlocationID"]
@@ -18819,7 +18819,6 @@ laozuo.org##div.dingyue
 laozuo.org##div.widget
 las.ac.cn###img
 lasestrellas.tv,tudn.com,play.google.com,linktr.ee,tunecore.co.jp,trybotics.com##button[aria-label="Share"]
-lastampa.it,ilsecoloxix.it##.vf-share-bar-default
 launchbit.com/taz-pixel$image
 lbx777.com,lbx777.net##table[width="325"][height="280"]
 lcxw.cn###tc_zq,[class^="nav05_ggw"],.nva_logo_a,[class^="gg"],.mg-t10
@@ -20100,6 +20099,7 @@ openloadpro.com,jav.direct#$#.inv_scroll_cancel { overflow: auto !important; hei
 openrate.aweber.com$image
 opensubtitles.com,eenewseurope.com###share-section
 oprahdaily.com,caranddriver.com#?#section > div[class]:has(> div.ad-container)
+optc-ww.channel.or.jp,d-navi004.com###snsbox
 opticsky.cn###head > .tac
 opticsky.cn##.p83_gridC > .cc
 opticsky.cn##[height="60"],.adsbygoogle
@@ -20749,6 +20749,7 @@ rat.xxx,zbporn.co,zbporn.com,zbporn.com.bd,zbporn.com.np,zbporn.net,zbporn.onlin
 rat.xxx,zbporn.co,zbporn.com,zbporn.com.bd,zbporn.com.np,zbporn.net,zbporn.online,zbporn.tv##.under-video-spot
 rbbtoday.com,manetatsu.com,roundup-gamers.jp,onepiece-film.jp##.arti-sharing-wrapper
 rbc.ru,rbclife.ru#?#article > div.gutter-b:has(> div.social-sharing)
+re-port.net,newsweek.com,amp.ibtimes.co.uk##.article--share
 read.qidian.com##.operation-wrap
 read.qidian.com##DIV.user_opt + DIV[style]
 reaff.com,yangmaodang.org##.entry-content > p[style="text-indent:0"]
@@ -21989,6 +21990,7 @@ tmtpost.com##.open-app
 tmtpost.com/public/images/app_download.png
 today-line-me.cdn.ampproject.org,today.line.me##.midAdModule-root
 tokai-tv.com,career.levtech.jp,info-maimai.sega.jp,news.mynavi.jp##.articleSns
+tokeibegin.jp,phantom-film.com##.shareSection
 tom.com###body_right_banner
 tom.com###popupDivgame
 tom.com##div#popupDivgame,.modad
@@ -22339,6 +22341,7 @@ vsemirnyjbank.org,worldbank.org,bancomundial.org,albankaldawli.org,shihang.org,b
 vsim.ua,20minut.ua##.share_group
 vsping.com##.cell > span > a[href]:not([href*=".vsping.com"])
 vsping.com##div[style^="border-radius: 10px; box-shadow"]
+vviruslove.com,yeniulke.net##.post-sharing-bd
 vxetable.cn#%#//scriptlet('abort-current-inline-script', 'decodeURIComponent', 'pagead')
 vxxx.com#$?#.video-page div[class]:not([style]):not([class*=" "]):not([class*="-"]):is(:has(> div[id][class]), :has(> div[class] > div[id][class])):contains(Advertisement) { remove: true; }
 w3cplus.com###block-block-49

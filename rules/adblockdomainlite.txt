@@ -3,9 +3,9 @@
 ! Description: 适用于InviZible Pro、personalDNSfilter的去广告合并规则，每8个小时更新一次。规则源：CJX's Annoyance List、EasyPrivacy、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、LegitimateURLShortener、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、Ad Wars、AWAvenue Ads Rule、hagezi-allowlist、大圣、1007、1024 hosts、AdAway、yhost、anti-ad、Blackmatrix7、217heidai。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20241224104405
-! Last modified: 2024/12/24 10:44:05
-! Blocked domains: 5379
+! Version: 20241224163843
+! Last modified: 2024/12/24 16:38:43
+! Blocked domains: 5366
 !
 00xvppy.cn
 img.0279.net
@@ -42,7 +42,6 @@ adm.10jqka.com.cn
 stat.10jqka.com.cn
 soft.110route.com
 1.11130.com.cn
-polska-olx.111455.xyz
 oss-asq-static.11222.cn
 render-web.11222.cn
 1.11467.com
@@ -732,8 +731,6 @@ adx.appsdk.com.cn
 appsdt.com
 appuu.cn
 static.appbox.apuslauncher.com
-www.aqcrmy.com
-www.aqianniao.com
 vinted-pl-gj32d.aqiwen.top
 a.armystar.com
 trk.arozone.cn
@@ -1629,7 +1626,6 @@ clickn.fang.com
 countpvn.light.fang.com
 mshow.fang.com
 fangcunzhijian1.cn
-olx-pol-kxlsw2.fanhu.top
 fanqianbb.com
 fanyi100.com.cn
 fanzhuang.net.cn
@@ -1710,7 +1706,6 @@ stat.funshion.net
 love.furenkeji.com
 digital-global.furniture-china.cn
 trk.futureelectronics.cn
-fwbrlnpzqqci.top
 fwlrv.cn
 fwmbjrl.cn
 ad.fx168api.com
@@ -1922,7 +1917,6 @@ gzpinda.com
 gzqvd.cn
 gzsanxiaomingshi.cn
 gzzkjdam.cn
-h155k.top
 h45pmx1.cn
 bm.h576.com
 t.h5data.com
@@ -1973,7 +1967,6 @@ hczzw.com
 hdbaichuan.cn
 jascce-coment.hdqtcy.cn
 jascce-class.hdqtdb.cn
-jaccs-votair.hdqtnn.cn
 stat.hebnews.cn
 hechaocheng.cn
 ad.hefei.cc
@@ -2874,7 +2867,6 @@ lpmzt.cn
 lpqhkj.cn
 lqhqu.cn
 lrswl.com
-lrtf.cn
 a1.lshou.com
 lshuaibin.cn
 news-log.lsttnews.com
@@ -3391,7 +3383,6 @@ polyfill-js.cn
 pop800.com
 poqwua.cn
 webtrack.pospal.cn
-postnl-posta-ddress.top
 postut.cn
 poyang.com
 log.cs.pp.cn
@@ -3824,7 +3815,6 @@ rumt-zh.com
 rvbztg.cn
 rvzlobj.cn
 rwpt.top
-icloud.apple-unde.rxlev.cn
 rxys.cn
 ryre.cn
 vinted-pl-gj32d.ryuji.top
@@ -3833,7 +3823,6 @@ rzflhxn.cn
 rznscya.cn
 rzsgxmm.cn
 s11.cn
-s304.cc
 s8.pw
 s981.cc
 sacre.cn
@@ -4362,7 +4351,6 @@ tjq.com
 tjqwb.cn
 tlsgq.cn
 jx.tmall.com
-icloud.apple-gubern.tmnfn.cn
 pxx.tnklrs.cn
 to8to.com
 hbv.tobeacon.cn
@@ -4459,7 +4447,6 @@ u51.me
 u55011.com
 u7u9.com
 u8ad.com
-qlppdsj.uamfc.cn
 ads.uc.cn
 adtrack.uc.cn
 api.mp.uc.cn
