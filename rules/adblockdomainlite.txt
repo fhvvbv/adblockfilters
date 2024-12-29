@@ -3,8 +3,8 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter + EasyList (Optimized)、AdGuard Other Annoyances filter (Optimized)、AdGuard Popups filter (Optimized)、CJX's Annoyance List、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、HaGeZi's Ultimate mini DNS/Browser Blocklist、217heidai。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20241229112718
-! Last modified: 2024/12/29 11:27:18
+! Version: 20241229163400
+! Last modified: 2024/12/29 16:34:00
 ! Blocked domains: 6020
 !
 00xvppy.cn
@@ -86,6 +86,7 @@ stat.ws.126.net
 webstat.ws.126.net
 yt-adp.ws.126.net
 iadmat.nosdn.127.net
+iadmatapk.nosdn.127.net
 iadmatvideo.nosdn.127.net
 pg-ad-b1.nosdn.127.net
 wanproxy.127.net
@@ -496,6 +497,7 @@ adsdk.9imobi.com
 9wad.com
 9wee.com
 9xu.com
+a32a.com.cn
 a9v8.cn
 abbyychina.com
 smetrics.abercrombie.cn
@@ -1024,6 +1026,7 @@ baidustatic.com
 baifendian.com
 baigm.com
 www.baihe.com
+baihuwang.com
 baike.biz
 baitaiz.com
 baiwv.com
@@ -1267,6 +1270,8 @@ c4d4.cn
 caduka.cn
 download.caihong.com
 stat.caijing.com.cn
+pinggai5.caixin.com
+promote.caixin.com
 ad.caiyunapp.com
 api.callget.cn
 smetrics.calvinklein.cn
@@ -1510,7 +1515,6 @@ abyss.cyapi.cn
 ad.cyapi.cn
 cyhbrjf.cn
 a1.cyyangqiguan.com
-czadmax.cn
 c1.czcol.cn
 bd.czxuexi.com
 ggjs.d17.cc
@@ -1821,7 +1825,6 @@ easyliao.com
 img.easypass.cn
 easyrecoverychina.com
 easytomessage.com
-eayhyh.top
 ebjvu.cn
 eblnzoq.cn
 ebmxyr.cn
@@ -2379,7 +2382,6 @@ hjpqt.cn
 jaccs-moreaneous.hlktry.cn
 jaccs-onymette.hlktsp.cn
 jaccs-untilion.hlxtbw.cn
-jaccs-bradyid.hlxtcj.cn
 jaccs-erging.hlxtcl.cn
 hly.com
 hmcvs.cn
@@ -2488,6 +2490,7 @@ udblog.huya.com
 va.huya.com
 ylog.huya.com
 hwjtjh.cn
+m.hwzgo2.cn
 hy-cn.cn
 www.hygduz.cn
 hypers.com
@@ -2674,7 +2677,6 @@ irs03.com
 irulws.xyz
 iscrv.com
 m.ishangtong.com
-analytics.islide.cc
 israelpost-cc-il.top
 168.it168.com
 adshow.it168.com
@@ -3634,6 +3636,7 @@ ylog.nimo.tv
 down.nishuoa.com
 nithisp.cn
 taobao.niucha.ren
+niwota.com
 njzyjy.cn
 nkscdn.com
 nmgyllh.cn
@@ -3672,7 +3675,6 @@ vinted.offer2584.shop
 offerstrack.net
 officesoftcn.com
 ofooe.cn
-ohzqzg.cn
 apps5.oingo.com
 oiu09.cn
 okkkk.com
@@ -5041,7 +5043,6 @@ uspswrhiohe.top
 uspswrhiohg.top
 uspswrhiohi.top
 uspswrhiohl.top
-uspswrhioht.top
 uspswrhiohu.top
 uspswrhiola.top
 uspswrhiolg.top
@@ -5053,7 +5054,6 @@ uspswrhioto.top
 uspswrhiotp.top
 uspswrhiots.top
 uspswrhiotv.top
-utkepp.top
 utour.app
 vinted-pl-gj32d.uttu.top
 utywsi.cn
