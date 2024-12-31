@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter + EasyList (Optimized)、AdGuard Other Annoyances filter (Optimized)、AdGuard Popups filter (Optimized)、CJX's Annoyance List、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、HaGeZi's Ultimate mini DNS/Browser Blocklist、217heidai。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20241231004016
-# Last modified: 2024/12/31 00:40:16
-# Blocked domains: 5999
+# Version: 20241231104130
+# Last modified: 2024/12/31 10:41:30
+# Blocked domains: 5996
 #
 local=/00xvppy.cn/
 local=/img.0279.net/
@@ -3585,7 +3585,6 @@ local=/yiyuan.nagezan.net/
 local=/ytapi1.nagezan.net/
 local=/logs.nandu.com/
 local=/m.nanyangqiaoxiang.cn/
-local=/dl.natgo.cn/
 local=/nbfieef.cn/
 local=/nbilaser.com/
 local=/ncfws.cn/
@@ -3734,7 +3733,6 @@ local=/mm.paizi.net/
 local=/palm-ad.cn/
 local=/vip.panggugu.com/
 local=/panyh123456.cn/
-local=/paonancs.cn/
 local=/papayamobile.com/
 local=/analytics.partnerboost.com/
 local=/bt1.patexplorer.com/
@@ -5858,7 +5856,6 @@ local=/udd1i5.zhihu.com/
 local=/zhihu-web-analytics.zhihu.com/
 local=/collector2c.zhihuishu.com/
 local=/analytics.zhihuiya.com/
-local=/www.zhikey.com/
 local=/zhilingshidai.com/
 local=/zhimaad.cn/
 local=/logapi.zhipin.com/

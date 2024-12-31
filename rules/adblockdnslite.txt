@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter + EasyList (Optimized)、AdGuard Other Annoyances filter (Optimized)、AdGuard Popups filter (Optimized)、CJX's Annoyance List、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、HaGeZi's Ultimate mini DNS/Browser Blocklist、217heidai。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20241231004015
-! Last modified: 2024/12/31 00:40:15
-! Blocked domains: 5999
+! Version: 20241231104130
+! Last modified: 2024/12/31 10:41:30
+! Blocked domains: 5996
 ! unBlocked domains: 20
 !
 ||00xvppy.cn^
@@ -3586,7 +3586,6 @@
 ||ytapi1.nagezan.net^
 ||logs.nandu.com^
 ||m.nanyangqiaoxiang.cn^
-||dl.natgo.cn^
 ||nbfieef.cn^
 ||nbilaser.com^
 ||ncfws.cn^
@@ -3735,7 +3734,6 @@
 ||palm-ad.cn^
 ||vip.panggugu.com^
 ||panyh123456.cn^
-||paonancs.cn^
 ||papayamobile.com^
 ||analytics.partnerboost.com^
 ||bt1.patexplorer.com^
@@ -5859,7 +5857,6 @@
 ||zhihu-web-analytics.zhihu.com^
 ||collector2c.zhihuishu.com^
 ||analytics.zhihuiya.com^
-||www.zhikey.com^
 ||zhilingshidai.com^
 ||zhimaad.cn^
 ||logapi.zhipin.com^
