@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter + EasyList (Optimized)、AdGuard Other Annoyances filter (Optimized)、AdGuard Popups filter (Optimized)、CJX's Annoyance List、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、HaGeZi's Ultimate mini DNS/Browser Blocklist、217heidai。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20241231163806
-! Last modified: 2024/12/31 16:38:06
-! Blocked Filters: 60686
+! Version: 20250101004003
+! Last modified: 2025/01/01 00:40:03
+! Blocked Filters: 60685
 !
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -7166,6 +7166,7 @@ $xmlhttprequest,redirect-rule=noop.txt,domain=aternos.org
 163.com##.gg200,.gg300,.gg200x300,[class$="_ad"],div.mod_ad_text,#bobo,#layout-bobo,.txt-bobo,#js_a_bobo,.bobo-area,.imglist-bobo-app,#layout-love,#layout-shop,.top-banner,div.post_adtop_main,div.post_adtop_side,a.tie-ad-bar,#fixed_foot_ad,#js-epTabDS,#js-epBobo
 163.com##.gkk_bj_yw
 163.com##.gkk_default_yw
+163.com##.hp_textlink1_ad
 163.com##.idx_textlink_ad
 163.com##.idx_tonglan_ad
 163.com##.idx_top_ad
@@ -7182,6 +7183,7 @@ $xmlhttprequest,redirect-rule=noop.txt,domain=aternos.org
 163.com##.ns-side-qrcode
 163.com##.ns_side_qrcode
 163.com##.post_adtop_main
+163.com##.post_columnad_top
 163.com##.post_recommend_ad
 163.com##.post_top_share
 163.com##.quickmark
@@ -13155,6 +13157,8 @@ aeon.co,psyche.co##.NLFormInsertFromCMS
 aeonretail.com##.product__share
 aeromods.app,whatsaero.com##+js(nano-setInterval-booster, count, , 0.02)
 aerotelegraph.com##.widget--newsletter
+aerowitter.com,aerolla.net,wenxuecity.com,newrepublic.com,boingboing.net,emojipedia.org,camelcamelcamel.com,adsoftheworld.com,flightconnections.com,smithsonianmag.com,thenation.com,lse.co.uk,knowt.com,gamerescape.com,myabandonware.com,androidheadlines.com,phoronix.com,virtualpiano.net,creaders.net,baeldung.com,titantv.com,thisisanfield.com,mouse-sensitivity.com,hostednovel.com,getemoji.com,concertarchives.org##+js(abort-current-script, Uint8Array, getAndSetOverlay)
+aerowitter.com,aerolla.net,wenxuecity.com,newrepublic.com,fragrantica.*,pc-builds.com##+js(no-setTimeout-if, /new Promise[\s\S]*?"throw"[\s\S]*?void 0/)
 aeroxplorer.com##.right-side-main > a.share-lnk
 aeroxplorer.com#?#.right-side-main > h3:contains(SHARE)
 aerztezeitung.de##.sharer_icon-wrapper
@@ -16364,7 +16368,6 @@ bogmedia.org#$#.fp-player > div[style^="position: absolute;"][style*="z-index"] 
 boingboing.net##.red-box
 boingboing.net#@#.ad-unit:not(.textads)
 boingboing.net#@#.ad_unit
-boingboing.net,emojipedia.org,camelcamelcamel.com,adsoftheworld.com,flightconnections.com,smithsonianmag.com,thenation.com,lse.co.uk,knowt.com,gamerescape.com,myabandonware.com,androidheadlines.com,phoronix.com,virtualpiano.net,creaders.net,baeldung.com,titantv.com,thisisanfield.com,mouse-sensitivity.com,hostednovel.com,getemoji.com,concertarchives.org##+js(abort-current-script, Uint8Array, getAndSetOverlay)
 boke112.com###linkdh
 boke112.com###sidebar img
 boke112.com##.custom-html-widget > div[style="margin-bottom: -7px;"]
@@ -31021,6 +31024,7 @@ m.winfuture.de##iframe[src^="//j.wfcdn.de/j/iframes/outbrain_"]
 m.winfuture.de##img[alt="test"]
 m.winfuture.de#?##articleBody > .summary_box ~ b:contains(Vergleich)
 m.winfuture.de#?##articleBody > br + b:contains(?)
+m.winfuture.de#?##articleBody > br + div + b:contains(?)
 m.winfuture.de#?##articleBody > br + i > b:contains(?)
 m.winfuture.de#?##articleBody > div:has(> div[id^="div-gpt-ad"])
 m.winfuture.de#?##main > h2:has(> a[href*="special/"][href*="/angebote/"])
@@ -33638,7 +33642,6 @@ newmatosoku.com##.uresuji-waku
 newmobilelife.com###ATS_sticky
 newmofu.doorblog.jp##.content > #lite_link:first-of-type
 newnavitel.blogspot.com##.post-body > div[style="text-align: left;"] > div[style="text-align: center;"] > h1[id="result"]
-newrepublic.com,fragrantica.*,pc-builds.com##+js(no-setTimeout-if, /new Promise[\s\S]*?"throw"[\s\S]*?void 0/)
 news-channel.doorblog.jp##.section-box:last-child > div.plugin-free_area
 news-gazette.com#?##tncms-region-global-side-secondary > .tncms-block:contains(News in your Inbox)
 news-medical.net###newsletter-content-wrap
@@ -45069,6 +45072,7 @@ winfuture.de#$##container { margin: auto auto!important; }
 winfuture.de#?##rightWrap > div.rightBx:has(> div.rightBx_btm > a[href="/beispielnewsletter.html"])
 winfuture.de#?#.content_wrap > #news_content > blockquote + b:contains(?)
 winfuture.de#?#.content_wrap > #news_content > br + b:contains(?)
+winfuture.de#?#.content_wrap > #news_content > br + div + b:contains(?)
 winfuture.de#?#.content_wrap > #news_content > br + i > b:contains(?)
 winfuture.de#?#.newsTicker > li:has(> a:contains(/(Anzeige)|Schnäppchen|sale|(?<!-)Angebot(?!s)/))
 winfuture.de#?#.topnews > div:has(a:contains(/(Anzeige)|Schnäppchen|sale|(?<!-)Angebot(?!s)|für nur [0-9]{1,} Euro/))
@@ -47606,7 +47610,6 @@ zzzyk.com###Tinfo
 ||0kkbb.com/js/i.js
 ||0o0.ooo/2017/01/13/58787d42bbad6.jpg
 ||0xiaoshuo.com/zixun.js
-||10000xing.cn/images/we
 ||1000mg.jp/ad_com1.php
 ||1000novel.com/js/ssads.js
 ||10010.com/mobileService/customer/getTenxuAdvConfig.htm
@@ -48704,6 +48707,8 @@ zzzyk.com###Tinfo
 ||adxapi.
 ||ae-api.ximera.com/api/*/gtm
 ||ae.dmxleo.com/*/events
+||aerolla.net/0.js
+||aerowitter.com/js/0.js
 ||aeza.net^$removeparam=ref
 ||af.analytics.elx.cloud^$domain=arbetsformedlingen.se
 ||af29.com/banner/
@@ -53314,7 +53319,6 @@ zzzyk.com###Tinfo
 ||hub.npo-data.nl/tags/tag.min.js
 ||hubpages.com/ctracker/
 ||hubspotusercontent-na1.net/hubfs/*/banners/tax-haven-banner-*.gif
-||hudb.pl^$third-party
 ||hudong.alicdn.com, direct
 ||hudong.com/11/85/26100000005581147339859649123.jpg
 ||huffingtonpost.fr/px.gif^
@@ -54173,7 +54177,6 @@ zzzyk.com###Tinfo
 ||js.monetize-ssp.com^$third-party
 ||js.mumayi.net/9495.gif
 ||js.mumayi.net/jiujiang
-||js.passport.qihucdn.com/11.0.1.js
 ||js.selfimg.com.cn/cna/analytics.js
 ||js.selfimg.com.cn/cna/tracking.min.js
 ||js.selfimg.com.cn/lib/ga/ga.js
@@ -56170,7 +56173,6 @@ zzzyk.com###Tinfo
 ||pdfbook.cn/wp-content/uploads/2017/11/049.jpg
 ||pdfcrowd.com/pls/api/event
 ||pdmntn.com/popups^
-||peach-static.ebu.io/pipe-*.min.js
 ||peachjohn.co.jp/StaffContent/assets/js/staffstart-analytics.js
 ||peacocktv.com^$removeparam=method
 ||peacocktv.com^$removeparam=orig_ref
@@ -57014,8 +57016,6 @@ zzzyk.com###Tinfo
 ||rocketcdn.me/*/tracking.js
 ||rockstargame.su/adb_script*$~stylesheet,script
 ||rockstargames.su/wp-content/themes/rockstargames/main.js
-||rokt.com/v1/events^
-||rokt.com/v2/metrics^
 ||roku.com/api/v*/logger$xmlhttprequest
 ||roomvo.com/services/event/
 ||rosario3.com/*/scripts/PushFirebase.js
@@ -57112,7 +57112,6 @@ zzzyk.com###Tinfo
 ||s.rbk.ru/*/browser-updater/main.js
 ||s.rbk.ru/*_autonews_static/autonews-*/scripts/build/_gt-targeting.js
 ||s.rbk.ru/*_rbcmetrika_static/*/build/_core.js
-||s.rmimg.com/*.gif|$domain=nodeloc.com
 ||s.smallpdf.com/static/track-js-*-entrypoint.js
 ||s.ssl.qhres.com/ssl/*.js
 ||s.ssl.qhres.com/ssl^$third-party
