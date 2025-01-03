@@ -3,8 +3,8 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter + EasyList (Optimized)、AdGuard Other Annoyances filter (Optimized)、AdGuard Popups filter (Optimized)、CJX's Annoyance List、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、HaGeZi's Ultimate mini DNS/Browser Blocklist、217heidai。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20250103004000
-! Last modified: 2025/01/03 00:40:00
+! Version: 20250103105347
+! Last modified: 2025/01/03 10:53:47
 ! Blocked domains: 5969
 !
 00xvppy.cn
@@ -4139,6 +4139,7 @@ qq937.com
 a1.qqan.com
 down.qqfarmer.com.cn
 qqhuhu.com
+www.qqqmy.com
 tweb.qqtax.cn
 sdk-ab-config.qquanquan.com
 tracelog-debug.qquanquan.com
@@ -5937,7 +5938,6 @@ wappv.zol.com.cn
 ydjs.zol.com.cn
 h5log.zongheng.com
 log.zongheng.com
-static.zongheng.com
 zonst.com
 adm.zookingsoft.com
 zoosnet.net
