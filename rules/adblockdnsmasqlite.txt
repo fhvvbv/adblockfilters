@@ -3,8 +3,8 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter + EasyList (Optimized)、AdGuard Other Annoyances filter (Optimized)、AdGuard Popups filter (Optimized)、CJX's Annoyance List、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、HaGeZi's Ultimate mini DNS/Browser Blocklist、217heidai。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20250103163832
-# Last modified: 2025/01/03 16:38:32
+# Version: 20250104004046
+# Last modified: 2025/01/04 00:40:46
 # Blocked domains: 5963
 #
 local=/00xvppy.cn/
@@ -41,6 +41,7 @@ local=/100tone.com/
 local=/1010pic.com/
 local=/adm.10jqka.com.cn/
 local=/stat.10jqka.com.cn/
+local=/soft.110route.com/
 local=/1.11130.com.cn/
 local=/polska-olx.111455.xyz/
 local=/oss-asq-static.11222.cn/
@@ -1351,7 +1352,6 @@ local=/game.china.com/
 local=/rankhit.china.com/
 local=/sssvd.china.com/
 local=/union.china.com.cn/
-local=/chinaapper.com/
 local=/pcmactivity.chinacloudsites.cn/
 local=/adpic.chinadaily.com.cn/
 local=/same.chinadaily.com.cn/
@@ -2470,6 +2470,7 @@ local=/m.hwzgo2.cn/
 local=/hy-cn.cn/
 local=/www.hygduz.cn/
 local=/hypers.com/
+local=/t.hypers.com.cn/
 local=/hysdknb.com/
 local=/hzbxm.com/
 local=/hzhabei.cn/
@@ -3935,6 +3936,8 @@ local=/adshmmsg.qq.com/
 local=/adslvfile.qq.com/
 local=/adslvseed.qq.com/
 local=/adsmind.apdcdn.tc.qq.com/
+local=/adsmind.gdtimg.com.tcdn.qq.com/
+local=/adsmind.ugdtimg.com.tcdn.qq.com/
 local=/adsolution.imtt.qq.com/
 local=/adsqqclick.qq.com/
 local=/adsrich.qq.com/
@@ -4136,7 +4139,6 @@ local=/qq937.com/
 local=/a1.qqan.com/
 local=/down.qqfarmer.com.cn/
 local=/qqhuhu.com/
-local=/www.qqqmy.com/
 local=/tweb.qqtax.cn/
 local=/sdk-ab-config.qquanquan.com/
 local=/tracelog-debug.qquanquan.com/
@@ -5097,7 +5099,6 @@ local=/cname-asia-stsdk09.vivoglobal.com/
 local=/err-up.vivoglobal.com/
 local=/in-adsjssdk.vivoglobal.com/
 local=/onrt-stsdk.vivoglobal.com/
-local=/ort-stsdk.vivoglobal.com/
 local=/pnrt-stsdk.vivoglobal.com/
 local=/ro-up.vivoglobal.com/
 local=/ru-monitor-stsdk.vivoglobal.com/
@@ -5442,7 +5443,6 @@ local=/tongji.xinmin.cn/
 local=/www2.xinmin.cn/
 local=/xinray.com/
 local=/d.xinshipu.com/
-local=/xiongdong.com/
 local=/xiongyin.com/
 local=/www8.xitek.com/
 local=/app.xizi.com/

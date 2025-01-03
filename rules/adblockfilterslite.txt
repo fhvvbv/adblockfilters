@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter + EasyList (Optimized)、AdGuard Other Annoyances filter (Optimized)、AdGuard Popups filter (Optimized)、CJX's Annoyance List、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、HaGeZi's Ultimate mini DNS/Browser Blocklist、217heidai。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20250103163832
-! Last modified: 2025/01/03 16:38:32
-! Blocked Filters: 26118
+! Version: 20250104004046
+! Last modified: 2025/01/04 00:40:46
+! Blocked Filters: 26115
 !
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -1011,6 +1011,8 @@
 ##.container_ad
 ##.containeradvertising
 ##.content > #dhxhtml
+##.content > .module > .small-icon-container > a.small-icon-div[target="_blank"]
+##.content > .small-icon-container > a.small-icon-div[target="_blank"]
 ##.content > a > .topline
 ##.content-share
 ##.content-video > .ads
@@ -7055,8 +7057,8 @@ $xmlhttprequest,redirect-rule=noop.txt,domain=aternos.org
 189.cn,zdzdm.com#@##share_list
 18avhub.com,18avtube.com,adultwefong.com,aicoin.net.cn,avmimi.com,fsdpp.cn,mm-cg.com,mse.360.cn,sports.qq.com,suopao.org,ting56.com,txzqw.me,youxi.baidu.com###banner
 18avinin.com,27ka.cn,sunnylife.tw###custom_html-5
-18avtube.com,adultwefong.com,aicoin.cn,aicoin.net.cn,avmimi.com,fsdpp.cn,ip138.com,mangahax.com,mm-cg.com,sports.qq.com,suopao.org,timecn.cn,txzqw.me,youxi.baidu.com###banner
-18avtube.com,avmimi.com,mm-cg.com###friendLink
+18avtube.com,adultwefong.com,aicoin.cn,fsdpp.cn,ip138.com,mangahax.com,mm-cg.com,sports.qq.com,suopao.org,timecn.cn,txzqw.me,youxi.baidu.com###banner
+18avtube.com,mm-cg.com###friendLink
 18avtube.com,mm-cg.com###partner
 18avtube.com,mm-cg.com##.CN_qmvtoy
 18board.com,18board.net,18p2p.com,18p2p.tv##.altbg2 > td[width="20%"] > a[target="_blank"]
@@ -7511,7 +7513,6 @@ $xmlhttprequest,redirect-rule=noop.txt,domain=aternos.org
 51cto.com,chinaacc.com,yidianzixun.com##.banner
 51cto.com,cioage.com$$a[href="bigdata"]
 51cto.com,cioage.com$$div[class="tltl"]
-51dll.com,fulisuo.com###aa
 51dongshi.com/okmqmyi.js
 51findu.com/command/qn.js
 51offer.com###rightFu
@@ -9400,7 +9401,7 @@ $xmlhttprequest,redirect-rule=noop.txt,domain=aternos.org
 @@||sogou.com/adpub/cfg/sendmsg.
 @@||sogou.com/pv.gif?*&stype=showskinpanel
 @@||sohu.com/cityjson$domain=114shouji.com|51credit.com|dilidili.one|jdboshi.com|jialingmm.net|lcm88.com|mop.com|shouji.com.cn|skk.moe|yxdm.tv
-@@||sohu.com/cityjson$domain=51credit.com|castech.com|eduyun.cn|ems.com.cn|jdboshi.com|jialingmm.net|lcm88.com|mop.com|platinum-pen.com.cn|shouji.com.cn|skk.moe|vivo.com.cn
+@@||sohu.com/cityjson$domain=51credit.com|castech.com|e-learn.cn|eduyun.cn|ems.com.cn|jdboshi.com|jialingmm.net|lcm88.com|mop.com|platinum-pen.com.cn|shouji.com.cn|skk.moe|vivo.com.cn
 @@||sohu.com/integration-api/mix/region/*&refer=http
 @@||sohu.com/play/videonew.do?*/share_play.
 @@||sohu.com/upload/static/share/share_play.html
@@ -9726,12 +9727,11 @@ ahaber.com.tr,m-takvim-com-tr.cdn.ampproject.org,m-sabah-com-tr.cdn.ampproject.o
 ahgame.com,china.com.cn,dandanzan.com,netbardh.com,pangzi.ca,twoeggz.com###pop
 ahgame.com,china.com.cn,netbardh.com,pangzitv.com,twoeggz.com###pop
 ahstudios.net,crunchyscan.fr,picallow.com,thecustomrom.com##+js(abort-on-property-read, addMultiEventListener)
-ahtv.cn,duhama.tv,frdic.com,huasing.net,it168.com,qinbing.cn###ads
+ahtv.cn,frdic.com,huasing.net,it168.com,qinbing.cn###ads
 ahtv.cn,sexbarss.net##.l1
 ahtv.cn,sexbarss.net##.r1
 aibing.cc##.adsense
 aibing.cc##a[href^="https://aibing.cc/go/"]
-aicoin.net.cn,bccn.net,douyuex.com,hkepc.com,iviewui.com,juejin.cn##.advertisement
 aili.com^$third-party
 aipai.com###videosRightDown
 aipai.com##.banner_90
@@ -9769,7 +9769,6 @@ akb48matomemory.com,mona-news.com,vipsister23.com,blog.esuteru.com##.plugin-twit
 akinator.com,akinator.mobi#$##adblockDetected { display: none !important; }
 akinator.com,akinator.mobi#$#.modal-backdrop { display: none !important; }
 akinator.com,akinator.mobi#$#body { overflow: visible !important; }
-aksam.com.tr,anicobin.ldblog.jp,elconsolto.com,enechange.co.jp,timesofisrael.com,pauta.cl,bt.com,vnexpress.net,besniekspres.com,kralmuzik.com.tr,veritas-a.com,sex.com,interior-heart.com,hdfilmifullizle.com,h-n-h.jp,discours.io,twicomi.com,cnbctv18.com,ksl.com##.social
 akwam.*##+js(nano-setInterval-booster, clock(), 1000, 0.02)
 alexa.cn##.importantList
 alexa.cn##.importantTop
@@ -9895,6 +9894,7 @@ anhuinews.com##div[style$="height:40px;overflow:hidden"]
 anime-sharing.com,onemileatatime.com,keeplinks.org,h1g.jp,qiita.com,real.discount,m.vesty.co.il,happiness.com,animeflv.net,republika.id,zfile.in.ua,cj3z.com,bookmix.ru,meleklermekani.com,sukabumiupdate.com##.fa-share-alt
 animeactua.com,procrackerz.org##+js(abort-current-script, disableEnterKey, Content is protected)
 animeflv.one,animefenix.vip,animeblix.org###cht-shr
+animego.ong,history-lordfilm.ru,aksam.com.tr,anicobin.ldblog.jp,elconsolto.com,enechange.co.jp,timesofisrael.com,pauta.cl,bt.com,vnexpress.net,besniekspres.com,kralmuzik.com.tr,veritas-a.com,sex.com,interior-heart.com,hdfilmifullizle.com,h-n-h.jp,discours.io,twicomi.com,cnbctv18.com,ksl.com##.social
 animeindia.in,codedosa.com,semesters.in##+js(set-constant, disableSelection, noopFunc)
 animekayo.com,sketchup.cgtips.org##.widget_bs-likebox
 animeland.tv,animeflv.net,kiss-anime.me##div[class^="ads"]
@@ -10098,7 +10098,6 @@ autos-yahoo-com.cdn.ampproject.org,yahoo.com##.pencilad
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.js_related-stories-inset
 avclub.com,clickhole.com,deadspin.com,gizmodo.com,jalopnik.com,jezebel.com,kotaku.com,lifehacker.com,splinternews.com,theinventory.com,theonion.com,theroot.com,thetakeout.com##.js_subscribe
 avg.com,avast.com###offer-chrome
-avmimi.com,mm-cg.com##.UT_thread
 avrebo.com#$?#body > div.MuiDialog-root:has(> div.MuiDialog-container img[src^="/images/recruit/"]) { display: none !important; }
 avsuggest.com,qiaobutang.com##.overlay
 axar.az,volyn24.com##.like-box
@@ -10558,6 +10557,7 @@ bbt.tv,btbt.tv,fiime.cn,kims3.xyz,mmiyue.com,qcheng.cc,yii666.com#@#.google-ad
 bcbay.com,creaders.net##.syzx
 bccn.net##div[style*="height:90"]
 bccn.net##img[src*="data:"]
+bccn.net,douyuex.com,hkepc.com,iviewui.com,juejin.cn##.advertisement
 bde4.cc$$script[tag-content="jsjiami.com"]
 bde4.com,bde4.cc$$a[href="yabo"]
 bde4.com,bde4.cc$$script[tag-content="ads"]
@@ -11255,7 +11255,7 @@ chip.com.tr,forum.xda-developers.com##.postbit-social
 chip.de,gamesworld.de,fnn.jp##.Ad
 chiphell.com###diy2 + div
 chitai-gorod.ru,firstwefeast.com,complex.com,ifunny.co,teatroporno.com,antena3.ro,webtekno.com##.push-notification
-chjtx.com,fooish.com,jqgcw.com###ad
+chjtx.com,fooish.com###ad
 chnmoney.com/dfile/
 chongbuluo.com###add
 chongbuluo.com###add + a
@@ -11951,6 +11951,7 @@ dmzj.com##.ad_th
 dmzj.com##a[href*="qunhei.com"]
 dmzj.com##div[style^="width:960px;height:60px;"],#app_manhua,DIV[style$="0px;display:block;width:960px;"],div[style="width:960px;height:90px;"],.ad,[height="90"],.ad_th,.timeAD
 dna.fr,ledauphine.com###sharingBlock
+dnevno.hr,fintolk.pro,e-earphone.blog,koneta.nifty.com##.wp-embed-share
 dngz.net##.hezuo
 dngz.net##.listright > a[target="_blank"] > img
 dngz.net##.tongji
@@ -12222,9 +12223,6 @@ dzwww.com##.popular
 dzwww.com##div[style="margin:0;padding:0;width:620px;height:345px;overflow:hidden;background-color:#fff;"]
 e-aidem.com,kochinews.co.jp,kookbang.dema.mil.kr,saintseiya-anime.com,busan.com,postshare.co.kr,donga.com,m.focus.kr##.sns_box
 e-bedwettingstore.com$image
-e-learn.cn###block-gyouer
-e-learn.cn###block-youyi
-e-learn.cn##.region-sidebar-second > .block:nth-child(2)
 e-marineeducation.com,viralogic.xyz,portalwrc.pl##+js(abort-on-property-read, disableSelection)
 e.customeriomail.com$image
 e.email.forbes.com$image
@@ -12232,6 +12230,7 @@ e.emails.huffpost.com/o/p/$image
 e.mail.ru,octavius.mail.ru###octavius-notify-third-party-analytics-data
 e.mail.ru,octavius.mail.ru###octavius-tooltip-widget-tamagotchi-header
 e.mail.ru,octavius.mail.ru##+js(remove-class, letter-list_top-line-adv-2pane|letter-list_top-line-adv-2pane_pony-mode, .letter-list)
+e.mail.ru,octavius.mail.ru##.new-year-ball
 e.mail.ru,octavius.mail.ru##div[data-test-id^="subscriptions_v"]
 e.mail.ru,octavius.mail.ru#$?#html { --vkui--octavius_size_headline_height--regular: 36px !important; }
 e0514.com##.banner,[id^="ad_"],[id^="diy"]
@@ -12472,6 +12471,7 @@ ent.163.com,war.163.com##.hotset
 ent.qq.com###ent_ad
 enterprisezine.jp,astv.ru,dp.ru,metanit.com,gorod48.ru##.socialBlock
 enthub.it,travel.yandex.ru,teletype.in##button[title="Поделиться"]
+entrackr.com,pciconcursos.com.br,kaago.com,kakaku.com##.sharelink
 eobuv.com,eschuhe.at,eapavi.lv,eobutev.si,eobuv.com.ua,eavalyne.lt##.newsletter-section-wrapper
 eol.cn###adfloat_l
 eol.cn###adfloat_r
@@ -12753,7 +12753,6 @@ finanzen.at,finanzen.ch##.ad-wrapper
 finclub.in,financeyogi.net##+js(nano-setInterval-booster, count, *, 0.02)
 findlaw.cn###wlcommonbot
 finsmes.com,skardu.pk,mikrometoxos.gr,filmdaily.co,connectwww.com,helpnetsecurity.com,journaldev.com###mailchimp-top-bar
-fintolk.pro,e-earphone.blog,koneta.nifty.com##.wp-embed-share
 firefox.com.cn,firefoxchina.cn###promote-top-list
 firefox.com.cn,firefoxchina.cn###thside-left-banner
 firefox.com.cn,firefoxchina.cn##.btn-email-show + p
@@ -14893,7 +14892,6 @@ jmw.com.cn##.mr_1
 jmw.com.cn##.rightCouplet
 jmw.com.cn##.top_pic
 jmw.com.cn##[class^="advertising"]
-jnhulz5yys.shop,wuwuplus.shop##.small-icon-container
 jnnc.com###float_layer
 jnnc.com##.basehr + div
 jod.jsports.co.jp,uverworld.jp,gorilla.clinic,jujutsukaisen.jp,donnaglamour.it,newsmondo.it##.shareBox
@@ -16075,6 +16073,7 @@ metabomb.net,eurogamer.net##.mobile-mpu-wrapper
 metode.my.id,sigaptech.com,tutorialsaya.com#$##wpsafe-generate { display: block !important; }
 metode.my.id,sigaptech.com,tutorialsaya.com#$##wpsafe-link { display: block !important; }
 metode.my.id,sigaptech.com,tutorialsaya.com#$#div[id^="wpsafe-wait"] { display: none !important; }
+metro.co.uk,eurosport.tvn24.pl##.share-button
 metro.co.uk,metro-co-uk.cdn.ampproject.org##.metro-amp-ad
 metroworldnews.com,metroecuador.com.ec,fayerwayer.com,publimetro.*,ferplei.com##.notification-subs
 mfa.gov.cn,fmprc.gov.cn#@#.adbox2
@@ -16459,7 +16458,6 @@ nanrenwo.net##div.ad-container,div.joke_img,div#img_weixin,div.bx-wrapper,[id^="
 nanrenwo.net##div[id^="content"]
 naozhong.net.cn###pnl-ne0n
 narescue.com,dell.com,newcastle-hospitals.nhs.uk,queen.gr,msfsaddon.com,arstechnica.com,snopes.com##.share-links
-nasiliu.net,levada.ru###ebala
 nasyun.com##.portal_block_summary
 nasyun.com##img[width="275"]
 nasyun.com##img[width="970"]
@@ -16965,7 +16963,6 @@ pchome.net###intel-bar
 pchome.net###pchome_970_90_a
 pchome.net###rightbar
 pchome.net##.kds_ad,.mod_banner,.adL,.adsbygoogle
-pciconcursos.com.br,kaago.com,kakaku.com##.sharelink
 pclady.com.cn##.mdxyAppEnter
 pcmag.com,extremetech.com###share_container
 pcmx.autohome.com.cn/impress?
@@ -17697,6 +17694,9 @@ rosbalt.ru,oilcapital.ru,inkazan.ru##button[class^="MobileShareButton"]
 rosbalt.ru,tagilcity.ru,newia.ru,udm-info.ru,oilcapital.ru,newizv.ru,inkazan.ru,vostokmedia.com##button[class^="LeftcolSocials"]
 rosenheim24.de,innsalzach24.de,bgland24.de,az-online.de,hna.de,kreiszeitung.de##.id-Actionbox-items-el--facebook
 roskvartal.ru,cosmo.ru##.news-subscription
+rouman5.com,roum20.xyz###headlessui-portal-root
+rouman5.com,roum20.xyz##div[style^="display: flex;"]
+rouman5.com,roum20.xyz##ins
 rozrywka.radiozet.pl,ensonhaber.com,searchengineland.com,spaceexplored.com,9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,electrek.co##.google-news-link
 rp-online.de,volksfreund.de##aside[data-portal-id^="mobilebanner"]
 rp5.ru,rp5.ua,rp5.by,rp5.kz,rp5.co.uk,rp5.md,~m.rp5.ru,~m.rp5.by,~m.rp5.kz,~m.rp5.co.uk,~m.rp5.md##+js(set-constant, Object.prototype.cABNoCheck, undefined)
@@ -19499,7 +19499,6 @@ vviruslove.com,yeniulke.net##.post-sharing-bd
 vxetable.cn#%#//scriptlet('abort-current-inline-script', 'decodeURIComponent', 'pagead')
 vxxx.com#$?#.video-page div[class]:not([style]):not([class*=" "]):not([class*="-"]):is(:has(> div[id][class]), :has(> div[class] > div[id][class])):contains(Advertisement) { remove: true; }
 vz.lt,cuisineactuelle.fr##.newsletterBlock
-w3cplus.com###block-block-49
 w3cplus.com###content-ad1,#block-block-33,#block-block-32,.ct-ad-article
 w3cschool.cn###rfbanner
 w3cschool.cn##.abox-content
@@ -20014,8 +20013,6 @@ xgcartoon.com,dailygh.com###video-top-ad
 xgo.com.cn##div.ad.ad-1,div[class^="ad ad_r"],div.gmine_ad
 xgore.net,atn.ua,300gospodarka.pl,telekritika.ua##.tags-share-box
 xgroovy.com,xxxshake.com,jizzberry.com##.in.is_mobile
-xgw5.com###app-card-list
-xgw5.com##div[style="z-index:10;margin-bottom: 10px;margin-top:10px"]
 xhamster.com,xhamster2.com#$#.video-view-ads { display: none!important; }
 xhamster.com,xhamster2.com#$#body { overflow: visible!important; position: static!important; }
 xhd.cn##.xinad
