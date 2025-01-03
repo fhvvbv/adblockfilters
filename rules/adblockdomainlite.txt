@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter + EasyList (Optimized)、AdGuard Other Annoyances filter (Optimized)、AdGuard Popups filter (Optimized)、CJX's Annoyance List、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、HaGeZi's Ultimate mini DNS/Browser Blocklist、217heidai。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20250103105347
-! Last modified: 2025/01/03 10:53:47
-! Blocked domains: 5969
+! Version: 20250103163832
+! Last modified: 2025/01/03 16:38:32
+! Blocked domains: 5963
 !
 00xvppy.cn
 img.0279.net
@@ -41,7 +41,6 @@ sdc.10086.cn
 1010pic.com
 adm.10jqka.com.cn
 stat.10jqka.com.cn
-soft.110route.com
 1.11130.com.cn
 polska-olx.111455.xyz
 oss-asq-static.11222.cn
@@ -130,7 +129,6 @@ temp.163.com
 timejs.game.163.com
 yaolu.mh.163.com
 yaolu.yuedu.163.com
-m.analytics.126.net.163jiasu.com
 163ns.com
 ac.dun.163yun.com
 165tchuang.com
@@ -1025,6 +1023,7 @@ baidustatic.com
 baifendian.com
 baigm.com
 www.baihe.com
+baihuwang.com
 baike.biz
 baitaiz.com
 baiwv.com
@@ -1227,7 +1226,7 @@ s.btime.com
 btyou.com
 beijing.buzhi5.com
 bvkx.cn
-bvqb.cn
+correosytelegrafos.bvqb.cn
 aramex.bvte.cn
 bvubasnf.com
 ad.bwton.com
@@ -1268,6 +1267,7 @@ c4d4.cn
 caduka.cn
 download.caihong.com
 stat.caijing.com.cn
+pinggai5.caixin.com
 promote.caixin.com
 ad.caiyunapp.com
 api.callget.cn
@@ -1395,7 +1395,6 @@ global.cisie.cn
 metrics.citibank.cn
 smetrics.citibank.cn
 tracker.citicsinfo.com
-ciwxy.cn
 3.cjcp.cn
 assets.ckjr001.com
 kpstaticbj.wx.ckjr001.com
@@ -1824,7 +1823,6 @@ easyrecoverychina.com
 easytomessage.com
 ebjvu.cn
 eblnzoq.cn
-ebqf.cn
 jb.ecar168.cn
 eclicks.cn
 ecudsc.cn
@@ -2472,7 +2470,6 @@ m.hwzgo2.cn
 hy-cn.cn
 www.hygduz.cn
 hypers.com
-t.hypers.com.cn
 hysdknb.com
 hzbxm.com
 hzhabei.cn
@@ -3227,6 +3224,7 @@ bffbdo.lmsae.cn
 lmwmm.com
 lnk0.com
 lnk8.cn
+lntxz.cn
 lockview.cn
 deeplink.locokids.cn
 webanalytics.logitech.com.cn
@@ -3250,7 +3248,6 @@ lshuaibin.cn
 news-log.lsttnews.com
 lufax.com
 metrics.lululemon.cn
-smetrics.lululemon.cn
 luodiye01.cn
 luyouxia.net
 wxapp.lvyadx.cn
@@ -3611,7 +3608,6 @@ ylog.nimo.tv
 down.nishuoa.com
 nithisp.cn
 taobao.niucha.ren
-niwota.com
 njzyjy.cn
 nkscdn.com
 nmgyllh.cn
@@ -3748,6 +3744,7 @@ penxiangge.com
 counter.people.cn
 ads.people.com.cn
 pmm.people.com.cn
+a1.peoplecdn.cn
 pepnsnq.cn
 pf0755.cn
 pfxsae.cn
@@ -3938,8 +3935,6 @@ adshmmsg.qq.com
 adslvfile.qq.com
 adslvseed.qq.com
 adsmind.apdcdn.tc.qq.com
-adsmind.gdtimg.com.tcdn.qq.com
-adsmind.ugdtimg.com.tcdn.qq.com
 adsolution.imtt.qq.com
 adsqqclick.qq.com
 adsrich.qq.com
@@ -3968,6 +3963,7 @@ bkcommdata.v.qq.com
 bksoup.v.qq.com
 bsrv.qq.com
 btrace.qq.com
+btrace.video.qq.com
 bugly.qq.com
 c.gj.qq.com
 cc.map.qq.com
@@ -4083,6 +4079,7 @@ sec.video.qq.com
 show-msgch.qq.com
 sngapm.qq.com
 sngmta.qq.com
+snowflake.qq.com
 soft.tbs.imtt.qq.com
 soup.v.qq.com
 ssp.qq.com
@@ -4264,9 +4261,7 @@ rzlib.net
 rznscya.cn
 rzsgxmm.cn
 s11.cn
-s304.cc
 g.s8dj.com
-s981.cc
 sacre.cn
 404.safedog.cn
 sagetrc.com
@@ -4447,7 +4442,6 @@ analytics.sixt.cn
 sj88.com
 sjdfuvz.cn
 sjezce.xyz
-www.sjheda.cn
 static.m.sjzhushou.com
 m.slshiye.cn
 sm-tc.cn
@@ -4812,7 +4806,6 @@ i.tianqi.com
 ip.tianqiapi.com
 datas.tianqistatic.com
 yptqys.tianqistatic.com
-tianshidun.cn
 tianshilv.cn
 api-ads.tiantianqutao.com
 tianyinsoft.top
@@ -5791,6 +5784,7 @@ api-analytics-cn3.zepp.com
 api-analytics-de.zepp.com
 api-analytics-us.zepp.com
 api-analytics-us3.zepp.com
+app-analytics.zepp.com
 app-analytics-de.zepp.com
 app-analytics-ru.zepp.com
 app-analytics-sg.zepp.com
