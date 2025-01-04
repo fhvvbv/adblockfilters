@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter + EasyList (Optimized)、AdGuard Other Annoyances filter (Optimized)、AdGuard Popups filter (Optimized)、CJX's Annoyance List、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、HaGeZi's Ultimate mini DNS/Browser Blocklist、217heidai。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20250104004046
-! Last modified: 2025/01/04 00:40:46
-! Blocked Filters: 60663
+! Version: 20250104103928
+! Last modified: 2025/01/04 10:39:28
+! Blocked Filters: 60676
 !
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -29549,6 +29549,7 @@ link.theskimm.com$image
 link.theverge.com$image
 link.thirdlove.com$image
 link.vox.com$image
+linkedin.com##div[data-id^="urn:li:lyndaCourse:"]
 linkedin.com#$##organization_guest_contextual-sign-in { display: none !important; }
 linkedin.com#$#body.overflow-hidden { overflow: auto !important; }
 linkedin.com#?#.banner:has(> div.banner__content > div > div.flex > a[data-tracking-control-name="organization_guest_sticky-cta-login"])
@@ -32495,6 +32496,7 @@ mobilenet.cz##.detailButtons > a.btn--facebook
 mobileprice.site,bestmobilenew.com##+js(nano-setInterval-booster, #mdtimer, , 0.02)
 mobileproxy.space#?#span > h4:contains(Поделитесь статьёй)
 mobilesyrup.com##div[class^="mobile-ads"]
+mobiletrans.wondershare.com##.b-downloadbox
 mobills.com.br#?#aside:has(> div.headline > h2:contains(Newsletter))
 mobills.com.br#?#div.headline:has(> h2:contains(Compartilhe este conteúdo))
 mobiltelefon.ru##.gr-bn
@@ -33648,6 +33650,7 @@ newgrodno.by##div[class^="the_champ_sharing"]
 newhotgames.com,pravda.if.ua##.tdb_single_post_share + div.td_block_separator
 newhua.com##div.taobaoad,div.unionad,ins.adsbygoogle,div.adr,div.ad_center,div[class^="ad_ritht_"],DIV.ad_top,DIV.i1,DIV.i2,DIV.i3
 newia.ru,udm-info.ru,oilcapital.ru,inkazan.ru##.matter-after > div:has(> div[class^="Subscribe_subscribe"])
+newindianexpress.com##div[class^="text-story-m_share"]
 newizv.ru##div[data-slug="matter_before_sharing"] + div:not([class])
 newkaliningrad.ru##.soclinks__list
 newkaliningrad.ru#$#.modal-backdrop { display: none!important; }
@@ -35040,6 +35043,7 @@ op.gg##.content > div[class^="css-"]:has(> div > div.vm-placement)
 op.gg##.gtag-ad
 op.gg##.premium-banner
 op.gg##.vm-placement,[class^="ads"]
+op.gg##.w-full:has(> .flex:only-child > #mobile_takeover:only-child)
 op.gg##a[href="https://tft.op.gg/meta-trends/comps"]
 op.gg##body > div[style^="bottom: 0px; left: 0px; position: fixed;"]
 op.gg##div:not([class]) > div[class^="css-"]:has(> div > div.vm-placement)
@@ -37209,6 +37213,7 @@ quifinanza.it##.hp_320x1
 quiksilver.de##.slot-item-top-footer-2
 quillbot.com##+js(set-local-storage-item, gcSurveyMonkeyShown, true)
 quillbot.com##+js(set-local-storage-item, showPromoBanner, false)
+quins.us###youtubeFollowStepModal
 quiz-facts.com##.content-network-space
 quiz-facts.com#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'interstitial-popup')
 quiz.community.fmworld.net,nsp.ru##app-share
@@ -45694,8 +45699,8 @@ www.kinopoisk.ru#$##__next > div[class^="styles_root"] > div[class^="styles_midd
 www.kinopoisk.ru#$#.ReactModalPortal > div.ReactModal__Overlay:has(> div.ReactModal__Content > div[data-tid="c1099293"]) { display: none !important; }
 www.kinopoisk.ru#$#.ReactModalPortal > div.ReactModal__Overlay:has(> div.ReactModal__Content > div[data-tid="fb14777c"]) { display: none !important; }
 www.kinopoisk.ru#$#body[class*="styles_body"] { overflow: auto !important; }
-www.kinopoisk.ru#$#header[class][style*="header-height:150px"] > div > img { display: none !important; }
-www.kinopoisk.ru#$#header[class][style*="header-height:150px"] > div.header-navigation { margin-top: 0 !important; }
+www.kinopoisk.ru#$#header[class][style*="--header-height: 200px;"] > div > img { display: none !important; }
+www.kinopoisk.ru#$#header[class][style*="--header-height: 200px;"] > div.header-navigation { margin-top: 0 !important; }
 www.kinopoisk.ru#?#div[class^="styles_root"] > div[data-tid]:has(> div[class*="blockClassName"] a[href*="trailer_promo"])
 www.kkkmh.com##div.mm-hot.box
 www.koopan.com##div.adv_box,ins.adsbygoogle
@@ -50338,6 +50343,7 @@ zzzyk.com###Tinfo
 ||calc.ru/stat.php
 ||calciomatome.net$removeparam=seesaa_related
 ||caliente.mx/integration-scripts/tracking.min.js
+||caloo.jp/js/common/click-tracking.js
 ||cam4.com^$removeparam=act
 ||cam4.com^$removeparam=showSignupPopup
 ||cam4.com^$removeparam=suid
@@ -54620,12 +54626,19 @@ zzzyk.com###Tinfo
 ||linkedin.com/feed/update$removeparam=origin
 ||linkedin.com/pixel/
 ||linkedin.com/platform-telemetry/
+||linkedin.com/premium/$removeparam=destRedirectURL
+||linkedin.com/premium/$removeparam=isSS
+||linkedin.com/premium/$removeparam=referenceId
+||linkedin.com/premium/$removeparam=upsellOrderOrigin
 ||linkedin.com/sensorCollect/?action=
 ||linkedin.com/shareArticle$third-party
 ||linkedin.com^$removeparam=/^trk/
+||linkedin.com^$removeparam=courseClaim
+||linkedin.com^$removeparam=lipi
 ||linkedin.com^$removeparam=original_referer
 ||linkedin.com^$removeparam=refId
 ||linkedin.com^$removeparam=trackingId
+||linkedin.com^$removeparam=trk
 ||linkhelper.cn/mmshow
 ||linkinprofile.com/api/v1/raw_page_view_stats
 ||links.cn/mmshow
