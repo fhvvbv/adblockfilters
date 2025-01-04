@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter + EasyList (Optimized)、AdGuard Other Annoyances filter (Optimized)、AdGuard Popups filter (Optimized)、CJX's Annoyance List、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、HaGeZi's Ultimate mini DNS/Browser Blocklist、217heidai。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20250104163438
-! Last modified: 2025/01/04 16:34:38
-! Blocked Filters: 26122
+! Version: 20250105003720
+! Last modified: 2025/01/05 00:37:20
+! Blocked Filters: 26111
 !
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -6810,7 +6810,6 @@ $xmlhttprequest,redirect-rule=noop.txt,domain=aternos.org
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.dialogJmodal
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.thread_recommend
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.topic_list_box
-111os.com,ahah3.com,qhyy8.com###couplet
 114la.com,78dm.net,chinairn.com,chinanews.com.cn,dav01.com,qncye.com,qzwb.com,silisili.in,silver.org.cn,solidot.org,ylmf.com##.adv
 114la.com,78dm.net,chinairn.com,dav01.com,qzwb.com,silver.org.cn,solidot.org,ylmf.com##.adv
 114la.com,ylmf.com###GameAdv
@@ -7137,8 +7136,8 @@ $xmlhttprequest,redirect-rule=noop.txt,domain=aternos.org
 1ting.com##[id^=tingx_]
 1ting.com##div[style="position:fixed;bottom:0;z-index:999"]
 1voice.gr,odishabytes.com,campaigntr.com,ogrenio.com,derstarih.com,justnerd.it##.more-stories
-1x6666.com,365kl.net,3qled.com,52ch.net,bbs.qbaobei.com,chinafix.com,cnyw.net,cqsq.com,gz0668.com,hcbbs.com,i5qs.com,mahoupao.com,mcncc.com,qilindao.com,susongbbs.com,xsool.com,xydai.cn###diynavtop
-1x6666.com,528500.com,52jscn.com,5378cc.com,58cam.com,5imx.com,7sqq.com,99nets.com,99nets.me,bbs.52life.cc,bestcclm.com,cm868.com,cnyw.net,cqfishing.net,discuzlab.com,gebi1.com,hh010.com,i5qs.com,im286.net,kugz.com,ld0766.com,luanren.com,mahoupao.com,qinzhou8.com,sh419.net,suizhoushi.com,susongbbs.com,txahz.com,wishct.com,xsool.com,xydai.cn,ybvv.com###diy1
+1x6666.com,528500.com,52jscn.com,5378cc.com,58cam.com,5imx.com,7sqq.com,99nets.com,99nets.me,bbs.52life.cc,bestcclm.com,cm868.com,cnyw.net,discuzlab.com,gebi1.com,hh010.com,im286.net,kugz.com,ld0766.com,luanren.com,mahoupao.com,qinzhou8.com,sh419.net,suizhoushi.com,susongbbs.com,txahz.com,wishct.com,xsool.com,xydai.cn,ybvv.com###diy1
+1x6666.com,52ch.net,bbs.qbaobei.com,chinafix.com,cnyw.net,gz0668.com,hcbbs.com,mahoupao.com,susongbbs.com,xsool.com,xydai.cn###diynavtop
 1ydt.com###R_headGG,.adsbygoogle,#head
 1ydt.com###head
 2.taobao.com##.download-layer
@@ -7557,7 +7556,7 @@ $xmlhttprequest,redirect-rule=noop.txt,domain=aternos.org
 52che.com##.ad,[class^="margin_ad"],.titbarfblist_ad
 52che.com##a[href^="http://count.52che.com/goto.html?"]
 52fx.cn##.nex_index_top_ads
-52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zn510.cc##.GzList
+52fzwg.com,79tao.com,hqol.cn,icabbs.com,k7d.com,kxdao.net,sunwy.org,twunbbs.com,wnflb.com,wnflb2023.com,wnflb66.com,xkeba.com,zn510.cc##.GzList
 52fzwg.com,79tao.com,hqol.cn,mcncc.com,sunwy.org,twunbbs.com,wnflb.com,wnflb66.com##.GzList
 52kd.com###frame2cu3VU
 52movieba.com,acglala.cc,awaker.cn,bimiacg4.net,bimiacg5.net,ccav1.com,cgown.com,cn163.net,comicat.org,cosersuki.org,dzbhdm.net,epinv.com,eroacg.com,galacg.me,gmgard.com,haochi123.com,hexieshe.cn,hexieshe.com,hexieshe.xyz,hggard.com,hmghmg.com,hmoe11.net,idanmu.ee,ifenpaidy.com,jitapu.com,jitashe.org,kelatv.com,kisssub.org,languang.co,llss.bz,mtrend.cn,mydrivers.com,mzh.ren,nxing.cn,oyksoft.com,souxue8.com,speedtest.cn,tingroom.com,touchgal.org,whsir.com,xxshe.info,xxshe.xyz##a[href*=".taobao.com"]
@@ -7651,8 +7650,6 @@ $xmlhttprequest,redirect-rule=noop.txt,domain=aternos.org
 62422.cn##body > table[width="778"][align="center"]
 62422.cn##td[width="760"][height="75"]
 65yw.com/i.html
-6665.com###fgdiy01
-6665.com###fgdiy09
 6665.com##div#fgdiy01,div#fgdiy09,div#fgdiy10,div#fgdiy14,div#fgdiy24,div#fgdiy49,a.mb-theme,.a_pb
 66huacai.com,kuaihou.com##.orange
 66law.cn##.consult-bottom-fixed
@@ -11994,7 +11991,6 @@ donaldjtrump.com#$?#html { overflow: visible !important; }
 dongao.com##div[class^="fu_"]
 dongao.com,zgsyz.com###ad
 dood.work,d0000d.com,do0od.com,ds2play.com,doods.pro,dooood.com,dood.yt,dood.re,dood.wf,dood.la,dood.pm,dood.so,dood.to,dood.watch,dood.ws##+js(nano-setInterval-booster, .countdown, , 0.02)
-dood.work,sandratableother.com,brittneystandardwestern.com,jamessoundcost.com,toddpartneranimal.com,kimberlyonlocal.com,richardstorehalf.com,zacharycollectionmight.com,thomasalthoughhear.com,susanhavekeep.com,mbs.jp,lorimuchbenefit.com,ntv.co.jp,evelynthankregion.com,jessicaglassauthor.com,lisatrialidea.com,bethshouldercan.com,donaldlineelse.com,josephseveralconcern.com,alleneconomicmatter.com,robertplacespace.com,heatherdiscussionwhen.com,jasminetesttry.com,erikcoldperson.com,roberteachfinal.com,loriwithinfamily.com,rebeccaneverbase.com,brucevotewithin.com,sethniceletter.com,michaelapplysome.com,cindyeyefinal.com,nikkatsu.com,shannonpersonalcost.com,graceaddresscommunity.com,jasonresponsemeasure.com,ryanagoinvolve.com,jamesstartstudent.com,brookethoughi.com,vincentincludesuccessful.com,sharonwhiledemocratic.com,jayservicestuff.com,sandrataxeight.com,markstyleall.com,d0000d.com,morganoperationface.com,johntryopen.com,do0od.com,edwardarriveoften.com,paulkitchendark.com,stevenimaginelittle.com,ds2play.com,doods.pro,dooood.com,dood.yt,dood.re,dood.wf,dood.la,dood.pm,dood.so,dood.to,dood.watch,dood.ws,guiasaude.info,gaz.com.br,relevantmagazine.com,camcaps.*,fakazaduo.com,gimy.app,ruyashoujo.com,nhk.or.jp,mangabtt.com,careet.net,contents.premium.naver.com,r114.com,app.kartra.com,box-manga.com,leouve.com.br,comico.jp,tappytoon.com,toonnbook.nate.com,tapas.io,kakaowebtoon.com,lapandilladelarejilla.es,lezhinus.com,lezhin.com,grafolio.naver.com,webtoon.kakao.com,page.kakao.com##+js(addEventListener-defuser, contextmenu)
 doope.jp,netgeek.biz,nikonrumors.com,szifon.com##.wptouch-showcase
 doorblog.jp,pachinkopachisro.com,blog.livedoor.jp,blog.jp#?#.plugin-memo > div.side > div.ninja-recommend-block:upward(2)
 doraeiga.com,movie-highspeed.com###shareWrap
@@ -13082,7 +13078,6 @@ gazetememur.com,epicdope.com,myfin.by##.custom-share
 gazetevatan.com,milliyet.com.tr##.breadcrumb__google-news
 gbatemp.net,macheforum.com,usingenglish.com,forums.tomshardware.com,myiptvforum.com,yougame.biz,voz.vn##a[data-xf-init="share-tooltip"]
 gbnews.com,buyzero.de,dailycaller.com,idownloadblog.com,malwarebytes.com,nakedsecurity.sophos.com,sbs.com.au###newsletter-signup
-gcxa.cn###edu_ad63
 gcxa.cn##.adimg
 gd.qq.com###r_ad
 gd.sina.com.cn###conBody,[id^="ad_arti_"],#taobao,.wad
@@ -14898,8 +14893,6 @@ jmw.com.cn##.mr_1
 jmw.com.cn##.rightCouplet
 jmw.com.cn##.top_pic
 jmw.com.cn##[class^="advertising"]
-jnnc.com###float_layer
-jnnc.com##.basehr + div
 jod.jsports.co.jp,uverworld.jp,gorilla.clinic,jujutsukaisen.jp,donnaglamour.it,newsmondo.it##.shareBox
 johnnys-web.com,travel.willer.co.jp,kidd.co.kr##.sns-share-btn
 jojoy.io,moddroid.com###ad_block_reminder_dialog
@@ -15496,7 +15489,6 @@ livescience.com,techradar.com##.jwplayer__widthsetter
 livingetc.com,gardeningetc.com##.social__item--newsletter
 lk21official.wiki,nontondrama.click##.warning-modal
 lkong.com##.lkong-ads
-llysc.cn###fbi-top-fixed-ad
 lmqmpm.clicks.mlsend.com$image
 lnews.jp,ryutsuu.biz##.sp-btn-mail-magazine
 lnk.parts,lnk.news##+js(nano-setInterval-booster, r--, , 0.02)
@@ -16654,7 +16646,6 @@ nishinippon.co.jp,mymo-ibank.com##.c-snsActions
 niuacc.com##.botLm-container
 niuacc.com##.masks
 niuacc.com##.yure
-niutuku.com,sina.cn##.bannerAD
 nivod2.com,nivod2.tv,nivod4.com,nivod4.tv,nivod5.com,nivod5.tv,nivod7.com,nivod7.tv,nivod8.com,nivod8.tv,nivod9.com,nivod9.tv##.img-list > .img-item:has(> a[href*=".ad_click"])
 nivod2.com,nivod2.tv,nivod4.com,nivod4.tv,nivod5.com,nivod5.tv,nivod7.com,nivod7.tv,nivod8.com,nivod8.tv,nivod9.com,nivod9.tv##a.focus_title_inner[href*=".ad_click"]
 nivod2.com,nivod2.tv,nivod4.com,nivod4.tv,nivod5.com,nivod5.tv,nivod7.com,nivod7.tv,nivod8.com,nivod8.tv,nivod9.com,nivod9.tv#$?#.img-list > .img-item:has(> a[href*=".ad_click"]) { remove: true; }
@@ -17680,6 +17671,7 @@ rmdown.com$$a[href="http"]
 rnd.de,elmundo.es##div[class="tp-modal"][style="z-index: 300050; display: block;"]
 rnd.de,elmundo.es##div[class="tp-modal"][style="z-index: 300050; display: block;"] ~ div.tp-backdrop
 robbreport.com,globo.com##.newsletter-link
+robertordercharacter.com,dood.work,sandratableother.com,brittneystandardwestern.com,jamessoundcost.com,toddpartneranimal.com,kimberlyonlocal.com,richardstorehalf.com,zacharycollectionmight.com,thomasalthoughhear.com,susanhavekeep.com,mbs.jp,lorimuchbenefit.com,ntv.co.jp,evelynthankregion.com,jessicaglassauthor.com,lisatrialidea.com,bethshouldercan.com,donaldlineelse.com,josephseveralconcern.com,alleneconomicmatter.com,robertplacespace.com,heatherdiscussionwhen.com,jasminetesttry.com,erikcoldperson.com,roberteachfinal.com,loriwithinfamily.com,rebeccaneverbase.com,brucevotewithin.com,sethniceletter.com,michaelapplysome.com,cindyeyefinal.com,nikkatsu.com,shannonpersonalcost.com,graceaddresscommunity.com,jasonresponsemeasure.com,ryanagoinvolve.com,jamesstartstudent.com,brookethoughi.com,vincentincludesuccessful.com,sharonwhiledemocratic.com,jayservicestuff.com,sandrataxeight.com,markstyleall.com,d0000d.com,morganoperationface.com,johntryopen.com,do0od.com,edwardarriveoften.com,paulkitchendark.com,stevenimaginelittle.com,ds2play.com,doods.pro,dooood.com,dood.yt,dood.re,dood.wf,dood.la,dood.pm,dood.so,dood.to,dood.watch,dood.ws,guiasaude.info,gaz.com.br,relevantmagazine.com,camcaps.*,fakazaduo.com,gimy.app,ruyashoujo.com,nhk.or.jp,mangabtt.com,careet.net,contents.premium.naver.com,r114.com,app.kartra.com,box-manga.com,leouve.com.br,comico.jp,tappytoon.com,toonnbook.nate.com,tapas.io,kakaowebtoon.com,lapandilladelarejilla.es,lezhinus.com,lezhin.com,grafolio.naver.com,webtoon.kakao.com,page.kakao.com##+js(addEventListener-defuser, contextmenu)
 rockandrollgarage.com,twinfinite.net###mvp-nav-soc-bar
 rocketnews24.com,youpouch.com##.ad-infeed
 rocketnews24.com,youpouch.com##.ad-inread
@@ -17849,8 +17841,6 @@ sexvid.blog,sexvid.cc,sexvid.cloud,sexvid.club,sexvid.co,sexvid.com,sexvid.com.b
 sexvid.blog,sexvid.cc,sexvid.cloud,sexvid.club,sexvid.co,sexvid.com,sexvid.com.bd,sexvid.com.np,sexvid.fr,sexvid.gr,sexvid.icu,sexvid.me,sexvid.one,sexvid.pl,sexvid.pro,sexvid.ru,sexvid.space,sexvid.vip,sexvid.work,sexvid.ws,gamefavo.com,plusone8.com##a[href="#share"]
 sexvideos-hd.com,pornohirsch.net###sh_video_link
 sfr.gov.ru,pfr.gov.ru##.news-item div.social-sharing
-sg169.com###coupleft
-sg169.com###couprigth
 sg169.com##.Mappdiv
 sg169.com##.bottom_khdxz
 sg169.com##.jy-pos-2,.jy-bg-2
@@ -17936,6 +17926,7 @@ sina.cn##.an.fl_feedFous
 sina.cn##.appOnly_card
 sina.cn##.art_img_callUp
 sina.cn##.article-sax
+sina.cn##.bannerAD
 sina.cn##.btn_follow.j_article_wbreco
 sina.cn##.callApp_fl_btn
 sina.cn##.callup-component
@@ -20920,7 +20911,6 @@ zzzyk.com###Tinfo
 ||360doc.com^*.html?t=$badfilter
 ||360kan.com/special/
 ||360kan.com/v1/block?blockid=544&
-||365kl.net/data/attachment/portal/
 ||365rich.cn/ba.aspx
 ||365rich.cn/live.htm
 ||365xuet.com/assets/web/js/main.jsr_
@@ -22967,7 +22957,6 @@ zzzyk.com###Tinfo
 ||gavbus*.com/assets/common/js/ad.js
 ||gavbus*.com/assets/common/js/admenu.js
 ||gcw*.2liang.cn^
-||gcxa.cn/a/gb.gif
 ||gd.189.cn*/push/$popup
 ||gd.189.cn/ad/$popup,third-party
 ||gd.189.cn/gz/promotion/$popup,third-party
