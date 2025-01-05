@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter + EasyList (Optimized)、AdGuard Other Annoyances filter (Optimized)、AdGuard Popups filter (Optimized)、CJX's Annoyance List、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、HaGeZi's Ultimate mini DNS/Browser Blocklist、217heidai。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20250105110007
-! Last modified: 2025/01/05 11:00:07
-! Blocked Filters: 26102
+! Version: 20250105163333
+! Last modified: 2025/01/05 16:33:33
+! Blocked Filters: 26099
 !
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -162,6 +162,7 @@
 ###bottomads
 ###bottombanner
 ###bottommob.bottommob
+###bottomsns
 ###breadCrumb + .c + .t[style="margin-top:8px"]
 ###breadCrumb + .t[style="margin-top:8px"]
 ###btn-call-app
@@ -1017,6 +1018,7 @@
 ##.content-share
 ##.content-video > .ads
 ##.content-video > .ads-player
+##.contentSocialBar
 ##.content__post--meta-social
 ##.content_ad_300
 ##.contentad
@@ -1924,7 +1926,6 @@
 ##.ts-share-bar
 ##.tsoft-push--in-notification
 ##.tt-plugin.tt-share-entry-with-sns
-##.tw-like-button
 ##.twavt-ads
 ##.tweet_link
 ##.tweet_share
@@ -9655,7 +9656,6 @@ acgnx.net,acgnx.se##a > img[src^="/images/"]
 acouplecooks.com,h-supertools.com##.seva-overlay
 acouplecooks.com,readbrightly.com,ostechnix.com##.inline-subscribe
 actoys.net,hualongxiang.com##div[id^="ads_d_"]
-actual.today,moneytimes.com.br##.single__share
 actualidad.rt.com,de.rt.com##.Section-block > div.Subscription-isReact
 acwifi.net##.ads-content
 acwifi.net##.article-content > div[style="float: none; margin:10px 0 10px 0; text-align:center;"]
@@ -11738,7 +11738,7 @@ dajie.com##.register_layer
 dajs00*.shop
 dakine.com,linkedin.com,way2sms.com#@#.share-box
 dalipan.com##.hongbao-wrap
-dandanzan.net,nnyy.in,nunuyy5.com##.gm-fp-body video:style(max-height:100%!important)
+dandanzan.*,nnyy.in,nunuyy5.com##.gm-fp-body video:style(max-height:100%!important)
 dangdang.com###fix_erweima
 dangdang.com##.bottom_fixed
 dangdang.com##.code2s
@@ -15244,7 +15244,6 @@ kumi.cn##DIV.adz1,DIV.adz2,DIV.adz3,DIV.adz4,div.ad64060Box,div.addad,DIV.ad,DIV
 kumi.cn##div[class^="adz"]
 kun.uz,defence-ua.com,war.ukraine.ua##.share-news
 kurashi-no.jp,minpachi.com##.ad_overlay
-kurashi-tane.org,lotteria.jp##.entry-sns
 kurashinista.jp,zf-web.com,kimirano.jp,ei-navi.jp,smbc-card.com,sirogohan.com,itempage3.auction.co.kr,ymobile.jp,xportsnews.com,web.gekisaka.jp,y-aoyama.jp,booklive.jp,gakumado.mynavi.jp,shop-list.com,smbc-card.com,japanese.joins.com,sedaily.com,canshop.jp,koreatimes.co.kr,m.chosun.com,sports.donga.com##.sns_area
 kuratoku.lcx.mitsubishielectric.co.jp,otona.howcollect.jp##div[class^="sns-"]
 kurier.de,np-coburg.de,frankenpost.de##div[data-b-title*="Traffective"]
@@ -15333,7 +15332,6 @@ le.com##.addDesktop
 le.com##.broadcast-adv
 le.com##.footer
 le.com##.gamePromotion
-le.com##.hv_wm_logo
 le.com##.lay_body[style^="width:490px;height:320px;"]
 le.com##.lay_body[style^="width:980px;height:100px;"]
 le.com##.lay_body[style^="width:980px;height:90px;"]
@@ -19980,7 +19978,6 @@ x3cn.com#?#body > div#qmenu_menu ~ div[style]:has(> a[target="_blank"])
 x6d.com#?#li:-abp-has(>.myad)
 x6d.com,xiaodao0.com##a[href^="/ad."]
 xanimu.com,familyporner.com,darknessporn.com,freepublicporn.com,pisshamster.com,punishworld.com##+js(remove-node-text, script, advert)
-xataka.com,vesti-ua.net,genbeta.com,xatakandroid.com,trendenciashombre.com,bebesymas.com,protocol.ua###fb-share-button
 xbeibeix.com#%#//scriptlet('prevent-setTimeout', '/\.height\(\) == 0|adsbygoogle/')
 xbeibeix.com#@#.google-ad
 xbiquwx.la##.box_con > div[style="margin:10px auto;width: 930px;height: 250px;"]

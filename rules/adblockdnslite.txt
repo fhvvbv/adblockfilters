@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter + EasyList (Optimized)、AdGuard Other Annoyances filter (Optimized)、AdGuard Popups filter (Optimized)、CJX's Annoyance List、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、HaGeZi's Ultimate mini DNS/Browser Blocklist、217heidai。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20250105110007
-! Last modified: 2025/01/05 11:00:07
-! Blocked domains: 5917
+! Version: 20250105163333
+! Last modified: 2025/01/05 16:33:33
+! Blocked domains: 5916
 ! unBlocked domains: 20
 !
 ||00xvppy.cn^
@@ -775,7 +775,6 @@
 ||antarctic.com^
 ||api.antibanads.com^
 ||anysdk.com^
-||aoopj.top^
 ||aoqinglv.cn^
 ||app-measurement.com^
 ||mobile.appchina.com^
@@ -1254,8 +1253,7 @@
 ||c4d4.cn^
 ||caduka.cn^
 ||download.caihong.com^
-||stat.caijing.com.cn^
-||promote.caixin.com^
+||pinggai5.caixin.com^
 ||ad.caiyunapp.com^
 ||api.callget.cn^
 ||smetrics.calvinklein.cn^
@@ -4013,6 +4011,7 @@
 ||pmir.3g.qq.com^
 ||pms.mb.qq.com^
 ||ps2.gamedl.qq.com^
+||pvstat.html5.qq.com^
 ||qappcenterv6.3g.qq.com^
 ||qbreport.html5.qq.com^
 ||qqdata.ab.qq.com^
@@ -4060,6 +4059,7 @@
 ||t.sj.qq.com^
 ||ta.qq.com^
 ||tbsone.imtt.qq.com^
+||tdc.qq.com^
 ||tdid.m.qq.com^
 ||tgw-masdk.3g.qq.com^
 ||tgw-sasdk.3g.qq.com^
@@ -4189,7 +4189,6 @@
 ||richh.cn^
 ||ad.richmob.cn^
 ||rightpilot.cn^
-||rightwhale.cn^
 ||hao.rising.cn^
 ||wan.rising.cn^
 ||download.rising.com.cn^
