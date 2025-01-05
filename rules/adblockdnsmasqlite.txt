@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter + EasyList (Optimized)、AdGuard Other Annoyances filter (Optimized)、AdGuard Popups filter (Optimized)、CJX's Annoyance List、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、HaGeZi's Ultimate mini DNS/Browser Blocklist、217heidai。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20250105003720
-# Last modified: 2025/01/05 00:37:20
-# Blocked domains: 5915
+# Version: 20250105110007
+# Last modified: 2025/01/05 11:00:07
+# Blocked domains: 5917
 #
 local=/00xvppy.cn/
 local=/img.0279.net/
@@ -197,6 +197,7 @@ local=/2xmzazd.cn/
 local=/2yt.cn/
 local=/ad.3.cn/
 local=/atom-log.3.cn/
+local=/static.3001.net/
 local=/analytics.300624.com/
 local=/301848.com/
 local=/301pk.com/
@@ -5884,6 +5885,7 @@ local=/wappv.zol.com.cn/
 local=/ydjs.zol.com.cn/
 local=/h5log.zongheng.com/
 local=/log.zongheng.com/
+local=/static.zongheng.com/
 local=/zonst.com/
 local=/adm.zookingsoft.com/
 local=/zoosnet.net/
