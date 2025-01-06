@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter + EasyList (Optimized)、AdGuard Other Annoyances filter (Optimized)、AdGuard Popups filter (Optimized)、CJX's Annoyance List、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、HaGeZi's Ultimate mini DNS/Browser Blocklist、217heidai。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20250106003821
-! Last modified: 2025/01/06 00:38:21
-! Blocked domains: 5916
+! Version: 20250106105924
+! Last modified: 2025/01/06 10:59:24
+! Blocked domains: 5906
 !
 00xvppy.cn
 img.0279.net
@@ -434,7 +434,6 @@ cp.7y7.com
 80w19v.cn
 m1.81312.com
 8181zx.com
-853.com
 2012.8684.com
 86fm.com
 888net.net
@@ -1218,7 +1217,6 @@ bvubasnf.com
 ad.bwton.com
 dlogs.bwton.com
 creative.bxsnews.com
-creative3-hs.bxsnews.com
 bxwccii.cn
 correosytelegrafos.bxze.cn
 monitor-frontend-collector.a.bybit-aws.com
@@ -1723,7 +1721,6 @@ cd001.www.duba.net
 cd002.www.duba.net
 cd003.www.duba.net
 cd011.www.duba.net
-cloud-q.duba.net
 vinted-pl-gj32d.dubrava.top
 vinted-pl-lzlxo.dubrava.top
 img.dubyc.com
@@ -2817,7 +2814,6 @@ short-video.kakamobi.cn
 smart-789.kakamobi.cn
 js.kalvinbg.cn
 img2.user.kanimg.com
-kankanews.com
 cps.kaola.com
 smetrics.karcher.cn
 bee.kascend.com
@@ -3282,7 +3278,6 @@ mepodownload.mediatek.com
 mgepodownload.mediatek.com
 mediav.com
 ad.meetyouintl.com
-meibu.com
 meihu56.cn
 static.meijiacun.com
 www.meipian7.cn
@@ -4103,7 +4098,6 @@ qq937.com
 a1.qqan.com
 down.qqfarmer.com.cn
 qqhuhu.com
-www.qqqmy.com
 tweb.qqtax.cn
 sdk-ab-config.qquanquan.com
 tracelog-debug.qquanquan.com
@@ -4317,7 +4311,6 @@ sigmob.com
 siguatv.cn
 sigulacuo.cn
 sikncs.com
-www.simejiglobal.com
 simengadx.com
 2016.sina.cn
 9ibbcq2d.sina.cn
@@ -4423,7 +4416,6 @@ log.m.sm.cn
 sugs.m.sm.cn
 video-ad.sm.cn
 iot-na.smarlife.cn
-swanhost.smartapps.cn
 smarttrade.cn
 smucdn.com
 analytics-api.smzdm.com
@@ -4804,7 +4796,6 @@ adsapi.togothermany.cn
 adscfg.togothermany.cn
 adsup.togothermany.cn
 a.tn.token-ad.com
-05.tokyometropolis.kiev.ua
 tongji.tom.com
 track.tom.com
 track.tomwx.net
@@ -5338,7 +5329,6 @@ ota.cdn.pandora.xiaomi.com
 package.box.xiaomi.com
 preload.xiaomi.com
 ptmi.gitv.pandora.xiaomi.com
-register.xmpush.xiaomi.com
 sandbox.xmpush.xiaomi.com
 sdkconfig.ad.india.xiaomi.com
 sdkconfig.ad.rus.xiaomi.com
