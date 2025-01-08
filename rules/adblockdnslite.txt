@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter + EasyList (Optimized)、AdGuard Other Annoyances filter (Optimized)、AdGuard Popups filter (Optimized)、CJX's Annoyance List、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、HaGeZi's Ultimate mini DNS/Browser Blocklist、217heidai。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20250108104300
-! Last modified: 2025/01/08 10:43:00
-! Blocked domains: 5883
+! Version: 20250108163934
+! Last modified: 2025/01/08 16:39:34
+! Blocked domains: 5882
 ! unBlocked domains: 20
 !
 ||00xvppy.cn^
@@ -170,6 +170,7 @@
 ||1tlm.cn^
 ||1wkg.cn^
 ||1x3x.com^
+||o-lx.20021220.xyz^
 ||2004seo.cn^
 ||20091222.com^
 ||2144.cn^
@@ -332,6 +333,7 @@
 ||52kuwang.cn^
 ||5y9nfpes.52pk.com^
 ||adm.52swine.com^
+||52wmb.com^
 ||slzs.52xiyou.com^
 ||api.52youtu.com^
 ||52z.com^
@@ -772,6 +774,7 @@
 ||antarctic.com^
 ||api.antibanads.com^
 ||anysdk.com^
+||aoopj.top^
 ||aoqinglv.cn^
 ||app-measurement.com^
 ||mobile.appchina.com^
@@ -1010,7 +1013,6 @@
 ||baifendian.com^
 ||baigm.com^
 ||www.baihe.com^
-||baihuwang.com^
 ||baike.biz^
 ||baitaiz.com^
 ||baiwv.com^
@@ -1181,7 +1183,6 @@
 ||bjmcmj.cn^
 ||countly.bjtu.edu.cn^
 ||bjvvqu.cn^
-||bkcsr.cn^
 ||bla01.com^
 ||file.blackint3.com^
 ||gg.blueidea.com^
@@ -1890,6 +1891,7 @@
 ||fengkongcloud.com^
 ||js.fengniao.com^
 ||stat.fengniao.com^
+||dsa-mfp.fengshows.cn^
 ||fengyixin.com^
 ||polska-vinted-hjso21.fenmeng.top^
 ||vinted-pl-gj32d.fenmeng.top^
@@ -2350,7 +2352,7 @@
 ||h5.hpplay.com.cn^
 ||hpvwdkn.cn^
 ||hqnpwzu.cn^
-||hseda.com^
+||www.hseda.com^
 ||hsrgnac.cn^
 ||g.hsw.cn^
 ||hsych.com^
@@ -2609,7 +2611,6 @@
 ||iscrv.com^
 ||m.ishangtong.com^
 ||analytics.islide.cc^
-||israelpost-cc-il.top^
 ||168.it168.com^
 ||adshow.it168.com^
 ||adshownew.it168.com^
@@ -3569,7 +3570,6 @@
 ||util.nphoto.net^
 ||nphqw.cn^
 ||nq37f.cn^
-||nqlng.cn^
 ||olx-pol-kxlsw2.nrjdjh.top^
 ||nrjzkj.cn^
 ||nryqr.cn^
@@ -3650,6 +3650,7 @@
 ||ad.ourgame.com^
 ||ovnrmvg.cn^
 ||ads.oway.mobi^
+||jascce-pitant.owvett.cn^
 ||oyfnkle.cn^
 ||ozogame.com^
 ||p04qzl.cn^
@@ -4206,9 +4207,7 @@
 ||rznscya.cn^
 ||rzsgxmm.cn^
 ||s11.cn^
-||s304.cc^
 ||g.s8dj.com^
-||s981.cc^
 ||sacre.cn^
 ||404.safedog.cn^
 ||sagetrc.com^
@@ -4749,6 +4748,7 @@
 ||ip.tianqiapi.com^
 ||datas.tianqistatic.com^
 ||yptqys.tianqistatic.com^
+||tianshidun.cn^
 ||tianshilv.cn^
 ||api-ads.tiantianqutao.com^
 ||tianyinsoft.top^
@@ -4836,7 +4836,6 @@
 ||analy.tuniu.cn^
 ||tusdk.com^
 ||tutuapp.com^
-||smetrics.tuvsud.cn^
 ||tuvtpxp.cn^
 ||tuxi.com.cn^
 ||appwall.tv2phone.cn^
