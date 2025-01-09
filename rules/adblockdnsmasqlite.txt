@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter + EasyList (Optimized)、AdGuard Other Annoyances filter (Optimized)、AdGuard Popups filter (Optimized)、CJX's Annoyance List、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、HaGeZi's Ultimate mini DNS/Browser Blocklist、217heidai。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20250109111643
-# Last modified: 2025/01/09 11:16:43
-# Blocked domains: 5881
+# Version: 20250109163832
+# Last modified: 2025/01/09 16:38:32
+# Blocked domains: 5880
 #
 local=/00xvppy.cn/
 local=/img.0279.net/
@@ -478,7 +478,6 @@ local=/www.95599.cn/
 local=/1.95ye.com/
 local=/11.96131.com.cn/
 local=/96138.net/
-local=/97csj.com/
 local=/9800.com/
 local=/whfpbc.99.com.cn/
 local=/w18.9939.com/
@@ -2350,7 +2349,7 @@ local=/hpplay.cn/
 local=/h5.hpplay.com.cn/
 local=/hpvwdkn.cn/
 local=/hqnpwzu.cn/
-local=/www.hseda.com/
+local=/hseda.com/
 local=/hsrgnac.cn/
 local=/g.hsw.cn/
 local=/hsych.com/
