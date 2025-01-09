@@ -1,9 +1,9 @@
-! Checksum: Jwo4kHGfm/2rw/BgFRlcdA
-! Diff-Path: ../patches/11/11-s-1736408632-3600.patch
+! Checksum: RddHSEXfoFiTKT8gCZl6pA
+! Diff-Path: ../patches/11/11-s-1736430193-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.57.28
-! TimeUpdated: 2025-01-09T07:39:21+00:00
+! Version: 2.0.57.31
+! TimeUpdated: 2025-01-09T13:39:15+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2499,6 +2499,7 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+cardu.com.tw##.platinum-ph-ad
 wedge.ismedia.jp##.article-service > .visual-box
 lettuceclub.net##.content-container > section > div.pt-4:has(#lcn-s_all_mb_gam)
 dic.pixiv.net##div[id^="d-sp-itemarticle"]
@@ -7394,6 +7395,8 @@ noodlemagazine.com##.container > div[style*="height:250px"]
 noodlemagazine.com##.main > div.container > div[style^="max-width:450px;margin:0 auto;padding:15px"]
 noodlemagazine.com#?#div[style^="background-color:"]:has(> iframe[data-src^="//go."])
 ! op.gg
+op.gg##.css-rn9m24
+op.gg##.css-16uhif2
 op.gg##td:has(> div[class^="css-"] > div[id^="div-gpt-ad-"])
 op.gg##.content > div[class^="css-"]:has(> div > div.vm-placement)
 op.gg##div:not([class]) > div[class^="css-"]:has(> div > div.vm-placement)
@@ -7698,6 +7701,9 @@ adguard.info,adguard.com,adguard.app#$#.hello_from_adguard_advanced_protection_i
 !
 ! Yandex ads in mobile apps
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/195708
+! loads by HTTP, no root required
+||interface3.music.163.com/eapi/ad/
 ! https://github.com/AdguardTeam/AdguardFilters/issues/193163
 ! https://github.com/AdguardTeam/AdguardFilters/issues/191556
 ! https://github.com/AdguardTeam/AdguardFilters/issues/187116
