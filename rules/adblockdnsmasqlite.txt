@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter + EasyList (Optimized)、AdGuard Other Annoyances filter (Optimized)、AdGuard Popups filter (Optimized)、CJX's Annoyance List、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、HaGeZi's Ultimate mini DNS/Browser Blocklist、217heidai。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20250110004148
-# Last modified: 2025/01/10 00:41:48
-# Blocked domains: 5880
+# Version: 20250110105819
+# Last modified: 2025/01/10 10:58:19
+# Blocked domains: 5879
 #
 local=/00xvppy.cn/
 local=/img.0279.net/
@@ -5056,7 +5056,6 @@ local=/dev.voicecloud.cn/
 local=/log.voicecloud.cn/
 local=/inpost-pl-my-id2g3ys.voip1.top/
 local=/httpdns.volcengineapi.com/
-local=/mssdk.volces.com/
 local=/metric.volcom.cn/
 local=/report.voovmeeting.com/
 local=/vorluic.cn/
@@ -5316,7 +5315,6 @@ local=/storeconfig.mistat.intl.xiaomi.com/
 local=/tz.sec.xiaomi.com/
 local=/video.market.xiaomi.com/
 local=/voip.game.xiaomi.com/
-local=/wtradv.market.xiaomi.com/
 local=/xadx.file.market.xiaomi.com/
 local=/app.chat.xiaomi.net/
 local=/mlog.search.xiaomi.net/
@@ -5640,6 +5638,7 @@ local=/analysis.yozocloud.cn/
 local=/yrwap.cn/
 local=/ys630.com/
 local=/log.ys7.com/
+local=/www.ysbaojia.com/
 local=/yssryr.cn/
 local=/iuou.ysw365.com/
 local=/www.yuanchengxiezuo.com/
