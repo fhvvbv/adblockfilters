@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter + EasyList (Optimized)、AdGuard Other Annoyances filter (Optimized)、AdGuard Popups filter (Optimized)、CJX's Annoyance List、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、HaGeZi's Ultimate mini DNS/Browser Blocklist、217heidai。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20250110105819
-! Last modified: 2025/01/10 10:58:19
-! Blocked domains: 5879
+! Version: 20250110163911
+! Last modified: 2025/01/10 16:39:11
+! Blocked domains: 5864
 ! unBlocked domains: 20
 !
 ||00xvppy.cn^
@@ -26,9 +26,6 @@
 ||0941.org^
 ||cdn.0i-i0.com^
 ||0n6h.cn^
-||0olut8.cn^
-||0x5.me^
-||10000xing.cn^
 ||1000su.com^
 ||ad.10010.com^
 ||analytics.10010.com^
@@ -39,7 +36,7 @@
 ||sdc.10086.cn^
 ||100fenlm.cn^
 ||100tone.com^
-||1010pic.com^
+||1.1010pic.com^
 ||adm.10jqka.com.cn^
 ||stat.10jqka.com.cn^
 ||soft.110route.com^
@@ -48,8 +45,6 @@
 ||oss-asq-static.11222.cn^
 ||render-web.11222.cn^
 ||1.11467.com^
-||114la.com^
-||1188.com^
 ||bj1.118pan.com^
 ||11h5.com^
 ||analysis.120ask.com^
@@ -65,10 +60,8 @@
 ||123ad.com^
 ||123cha.com^
 ||uimg.123hala.com^
-||123juzi.com^
 ||123juzi.net^
 ||ent1.12584.cn^
-||126.cn^
 ||analytics.126.com^
 ||ir.mail.126.com^
 ||admusicpic.music.126.net^
@@ -131,7 +124,6 @@
 ||timejs.game.163.com^
 ||yaolu.mh.163.com^
 ||yaolu.yuedu.163.com^
-||163ns.com^
 ||ac.dun.163yun.com^
 ||165tchuang.com^
 ||cui.m.1688.com^
@@ -1208,7 +1200,7 @@
 ||s.btime.com^
 ||btyou.com^
 ||beijing.buzhi5.com^
-||bvkx.cn^
+||canadapost-postescanada.bvkx.cn^
 ||aramex.bvte.cn^
 ||bvubasnf.com^
 ||ad.bwton.com^
@@ -1247,7 +1239,7 @@
 ||c4d4.cn^
 ||caduka.cn^
 ||download.caihong.com^
-||promote.caixin.com^
+||pinggai5.caixin.com^
 ||ad.caiyunapp.com^
 ||api.callget.cn^
 ||smetrics.calvinklein.cn^
@@ -1712,7 +1704,6 @@
 ||channel.api.duapp.com^
 ||bu1.duba.com^
 ||bu2.duba.com^
-||123.duba.net^
 ||cd001.www.duba.net^
 ||cd002.www.duba.net^
 ||cd003.www.duba.net^
@@ -2327,6 +2318,7 @@
 ||hnol.net^
 ||protection.hnpolice.com^
 ||hnsykly.cn^
+||jascce-trialth.hnttcmh.cn^
 ||hnzzff.club^
 ||ad.holaq.com^
 ||pay.holaq.com^
@@ -2609,7 +2601,6 @@
 ||iscrv.com^
 ||m.ishangtong.com^
 ||analytics.islide.cc^
-||168.it168.com^
 ||adshow.it168.com^
 ||adshownew.it168.com^
 ||stat.it168.com^
@@ -2771,7 +2762,6 @@
 ||jsing.net^
 ||fpb1.jsq886.com^
 ||jszctech.com^
-||lm10111.jtrincc.cn^
 ||jiaoben.jucanw.com^
 ||jugao.com^
 ||juhooqv.cn^
@@ -3098,6 +3088,7 @@
 ||api.leancloud.cn^
 ||ledaren.cn^
 ||trace.ledu.com^
+||leeleo.top^
 ||analysis.leetcode.cn^
 ||lehaitv.com^
 ||ads-api-o.api.leiniao.com^
@@ -3421,7 +3412,6 @@
 ||da.mmarket.com^
 ||i.mmcdn.cn^
 ||mmkkiivv.com^
-||mnecmo.cn^
 ||g.mnw.cn^
 ||mnxhj.com^
 ||mnzvtwd.cn^
@@ -4168,7 +4158,6 @@
 ||rhinogo.cn^
 ||richh.cn^
 ||ad.richmob.cn^
-||rightpilot.cn^
 ||hao.rising.cn^
 ||wan.rising.cn^
 ||download.rising.com.cn^
@@ -4205,7 +4194,9 @@
 ||rznscya.cn^
 ||rzsgxmm.cn^
 ||s11.cn^
+||s304.cc^
 ||g.s8dj.com^
+||s981.cc^
 ||sacre.cn^
 ||404.safedog.cn^
 ||sagetrc.com^
@@ -4234,8 +4225,6 @@
 ||sc126.com^
 ||scbt.asia^
 ||script302.top^
-||irrichca.scslrxt.cn^
-||jzkpslew.scslrxt.cn^
 ||statscollector.sd-rtn.com^
 ||sd6hon.cn^
 ||sdgreg.cn^
@@ -4284,7 +4273,6 @@
 ||ads-shopping.shouqianba.com^
 ||d1.showself.com^
 ||shtatuo.cn^
-||1178.shucong.com^
 ||shuiguo.com^
 ||js.shunqi.com^
 ||shuzilm.cn^
@@ -4449,7 +4437,6 @@
 ||sofseo.cn^
 ||wct.softonic.cn^
 ||adx.sogaha.cn^
-||123.sogou.com^
 ||adsence.sogou.com^
 ||fair.sogou.com^
 ||files2.sogou.com^
@@ -4834,6 +4821,7 @@
 ||analy.tuniu.cn^
 ||tusdk.com^
 ||tutuapp.com^
+||smetrics.tuvsud.cn^
 ||tuvtpxp.cn^
 ||tuxi.com.cn^
 ||appwall.tv2phone.cn^
@@ -4952,8 +4940,6 @@
 ||526dimg.uunice.com^
 ||weld.uunice.com^
 ||weld830.uunice.com^
-||pop.uusee.com^
-||traffic.uusee.com^
 ||gg.uuu9.com^
 ||stat.uuu9.com^
 ||zzcw.uuzham.com^
@@ -5159,7 +5145,6 @@
 ||winads.cn^
 ||winbaicai.com^
 ||hoverfly.winchdesign.cn^
-||windload.cn^
 ||ad.winrar.com.cn^
 ||winvvv.com^
 ||wistfulness.cn^
