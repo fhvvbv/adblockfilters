@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter + EasyList (Optimized)、AdGuard Other Annoyances filter (Optimized)、AdGuard Popups filter (Optimized)、CJX's Annoyance List、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、HaGeZi's Ultimate mini DNS/Browser Blocklist、217heidai。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20250111004220
-! Last modified: 2025/01/11 00:42:20
-! Blocked Filters: 33774
+! Version: 20250111104408
+! Last modified: 2025/01/11 10:44:08
+! Blocked Filters: 33780
 !
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -15229,7 +15229,7 @@ atelevisao.com,mundokodi.com,gamesisart.ru,laleggepertutti.it##.clAdPlacementAnc
 athleticsirelandmerchandise.com/_t/open/$image
 atida.fr,vervemagazine.in##.block--newsletter
 atlantak.com,pythonforbeginners.com,collegetransitions.com##.widget_yikes_easy_mc_widget
-atlanticsuperstore.ca,fortinos.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#?#.chakra-linkbox:-abp-contains(Sponsored)
+atlanticsuperstore.ca,fortinos.ca,loblaws.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#?#.css-0:has(> div > .chakra-linkbox:-abp-contains(sponsored))
 atoolbox.net###ad-coupon-search
 attacomsian.com,catwalkyourself.com,egyptianstreets.com,sklum.com,comicbook.com###newsletterModal
 attacomsian.com,sklum.com,oggusto.com,tiojoao.com.br,thryv.com,nordvpn.com,aipa551.com,baba-mail.co.il,catwalkyourself.com,tfc.tv,bitdefender.com##.modal-backdrop
@@ -21825,6 +21825,7 @@ linux.how2shout.com,4thsight.xyz,tech-story.net###custom_html-25
 linux.how2shout.com,reneweconomy.com.au,hitbdsm.com,artificialintelligencestechnology.com,freecoursesonline.me,arabtimesonline.com,healthy4pepole.com,upscpdf.com###custom_html-10
 linuxbaike.com$$div[class="celan"]
 linuxbaike.com$$div[class="fadacai"]
+linuxfoundation.org,armosec.io##.blog-single__share
 linuxidc.com##.linux801
 linuxidc.com##ins.adsbygoogle,div.linux902,div.linux903
 linuxuprising.com,sabishiidesu.com##.share-box
@@ -25109,6 +25110,8 @@ smartapps.cn##.sw-22__bdad-wrap,.sw-22__ad-expose
 smartapps.cn##swan-nest-banner-ad.ad-expose
 smarthomebeginner.com,vitalhelden.de##div[data-type="popup"]
 smartmag.jp,gentosha.jp##.snsList01
+smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com###thread-share-bar
+smarttubeapp.github.io,videogameschronicle.com,troyhunt.com,disqus.com##.comment__share > *
 smashjump.com,sqlservercentral.com,emu-france.com,laweekly.com,actualidadiphone.com,windowsnoticias.com,linuxadictos.com,historiek.net,livesportstream.club,meteorologiaenred.com,desdelinux.net,movilforum.com,ubunlog.com,piacenza24.eu,evolutionofbodybuilding.net,androidayuda.com,databaseitalia.it,androidsis.com,blog.desdelinux.net,elprocus.com,minhaoperadora.com.br,technuws.com,likegeeks.com,thatoneguy.com.au,fotografwdrodze.pl,sceptr.net##.widget_newsletterwidget
 smashy.stream,bestgirlsexy.com,nhentai.to,masahub.net##+js(abort-on-property-write, handleException)
 smashystream.*##+js(abort-current-script, $, window.open)
@@ -25242,6 +25245,8 @@ socceronline.me,vipleague.*,vipbox.*,strikeout.*##button[data-open="_blank"]
 soft.macx.cn#@##googlead
 soft.macx.cn#@##googlead1
 softonic.cn,softonic.com,softonic.pl,softonic.nl,softonic.com.tr,softonic.ru,softonic.jp,softonic.com##.sam-slot
+softwaresolutionshere.com,freevpshere.com#@##leaderboard.ad
+softwaresolutionshere.com,freevpshere.com#@#.ad-placeholder
 sogou.com###PZL
 sogou.com###PZR
 sogou.com###appNewsBtn
@@ -26364,7 +26369,6 @@ tropica.cn##.bm.a_c1
 tropica.cn##.wp1.a_t
 trovit.ae,trovit.be,trovit.ca,trovit.ch,trovit.cl,trovit.co.cr,trovit.co.id,trovit.co.in,trovit.co.ke,trovit.co.nz,trovit.co.uk,trovit.co.ve,trovit.co.za,trovit.com,trovit.com.br,trovit.com.co,trovit.com.ec,trovit.com.hk,trovit.com.kw,trovit.com.mx,trovit.com.pa,trovit.com.pe,trovit.com.pk,trovit.com.qa,trovit.com.sg,trovit.com.tr,trovit.com.tw,trovit.com.uy,trovit.com.vn,trovit.cz,trovit.dk,trovit.es,trovit.fr,trovit.hu,trovit.ie,trovit.it,trovit.jp,trovit.lu,trovit.ma,trovit.my,trovit.ng,trovit.nl,trovit.no,trovit.ph,trovit.pl,trovit.pt,trovit.ro,trovit.se,trovitargentina.com.ar##.alertBox
 trovit.it,lostiempos.com,nazya.com,firstthings.com###cboxOverlay
-troyhunt.com,disqus.com##.comment__share > *
 trthaber.com,babyclub.de##.social-links-container
 truckeronroad.com,rzeszow-news.pl,lwowecki.info###sos_fb_slider
 trueachievements.com,ign.com##+js(abort-current-script, document.addEventListener, isIframeNetworking)
@@ -26959,6 +26963,7 @@ watchmaster.com,erwinmueller.com,agro-center.de,schuco.de,camelactive.com,termin
 watchmoviesss.*##+js(window-close-if, /watch/hd-movie)
 watchsao.tv,watchgoblinslayer.com,readberserk.com,blackclovermanga2.com,kanojo-okarishimasu.com,onepiecechapters.com,readshingekinokyojin.com,readonepunchman.net,readheroacademia.com##.pages__ad
 watchseries.tube,chrisellisonllc.xyz,arcasiangrocer.store,hdfungamezz.xyz,rapelust.com##+js(abort-current-script, Object.create, break;case)
+watoday.com.au,theage.com.au,brisbanetimes.com.au,smh.com.au##header > div:has(> div.container > div.adWrapper)
 watoday.com.au,theage.com.au,brisbanetimes.com.au,smh.com.au#$##app nav + header.noPrint { top: 0 !important; }
 watoday.com.au,theage.com.au,brisbanetimes.com.au,smh.com.au#$#._2gSkZ { height: 150px !important; }
 watson.ch,watson.de###nps-watson-adblocker
@@ -31447,6 +31452,7 @@ zzzyk.com###Tinfo
 ||ldb.cc/js/top.js
 ||ldmnq.com^$third-party,badfilter
 ||le.com/*ark=
+||leeleo.top^$third-party
 ||leiphone.com/uploads/new/article/880_880/201807/5b5687fef17a5.jpg
 ||leiphone.com/uploads/new/category/pic/*/740x140/
 ||leju.com/abp/cmslead_new.v2.js

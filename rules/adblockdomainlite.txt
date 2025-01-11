@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter + EasyList (Optimized)、AdGuard Other Annoyances filter (Optimized)、AdGuard Popups filter (Optimized)、CJX's Annoyance List、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、HaGeZi's Ultimate mini DNS/Browser Blocklist、217heidai。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20250111004220
-! Last modified: 2025/01/11 00:42:20
-! Blocked domains: 5863
+! Version: 20250111104408
+! Last modified: 2025/01/11 10:44:08
+! Blocked domains: 5864
 !
 00xvppy.cn
 img.0279.net
@@ -3087,7 +3087,6 @@ stat.le.com
 api.leancloud.cn
 ledaren.cn
 trace.ledu.com
-leeleo.top
 analysis.leetcode.cn
 lehaitv.com
 ads-api-o.api.leiniao.com
@@ -4074,6 +4073,7 @@ qq937.com
 a1.qqan.com
 down.qqfarmer.com.cn
 qqhuhu.com
+www.qqqmy.com
 tweb.qqtax.cn
 sdk-ab-config.qquanquan.com
 tracelog-debug.qquanquan.com
@@ -4939,6 +4939,8 @@ uunak.cn
 526dimg.uunice.com
 weld.uunice.com
 weld830.uunice.com
+pop.uusee.com
+traffic.uusee.com
 gg.uuu9.com
 stat.uuu9.com
 zzcw.uuzham.com
@@ -5650,7 +5652,6 @@ ywsywh.cn
 ywxww.net
 adsclick.yx.js.cn
 www.yx3377.com
-qiniuyunxz.yxflzs.com
 ad.a.yximgs.com
 ali-ad.a.yximgs.com
 hw-ot-ad.a.yximgs.com
