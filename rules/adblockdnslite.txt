@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter + EasyList (Optimized)、AdGuard Other Annoyances filter (Optimized)、AdGuard Popups filter (Optimized)、CJX's Annoyance List、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、HaGeZi's Ultimate mini DNS/Browser Blocklist、217heidai。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20250111104408
-! Last modified: 2025/01/11 10:44:08
-! Blocked domains: 5864
+! Version: 20250111163415
+! Last modified: 2025/01/11 16:34:15
+! Blocked domains: 5866
 ! unBlocked domains: 20
 !
 ||00xvppy.cn^
@@ -26,6 +26,9 @@
 ||0941.org^
 ||cdn.0i-i0.com^
 ||0n6h.cn^
+||0olut8.cn^
+||0x5.me^
+||10000xing.cn^
 ||1000su.com^
 ||ad.10010.com^
 ||analytics.10010.com^
@@ -36,7 +39,7 @@
 ||sdc.10086.cn^
 ||100fenlm.cn^
 ||100tone.com^
-||1.1010pic.com^
+||1010pic.com^
 ||adm.10jqka.com.cn^
 ||stat.10jqka.com.cn^
 ||soft.110route.com^
@@ -45,6 +48,8 @@
 ||oss-asq-static.11222.cn^
 ||render-web.11222.cn^
 ||1.11467.com^
+||114la.com^
+||1188.com^
 ||bj1.118pan.com^
 ||11h5.com^
 ||analysis.120ask.com^
@@ -60,8 +65,10 @@
 ||123ad.com^
 ||123cha.com^
 ||uimg.123hala.com^
+||123juzi.com^
 ||123juzi.net^
 ||ent1.12584.cn^
+||126.cn^
 ||analytics.126.com^
 ||ir.mail.126.com^
 ||admusicpic.music.126.net^
@@ -124,6 +131,7 @@
 ||timejs.game.163.com^
 ||yaolu.mh.163.com^
 ||yaolu.yuedu.163.com^
+||163ns.com^
 ||ac.dun.163yun.com^
 ||165tchuang.com^
 ||cui.m.1688.com^
@@ -494,7 +502,6 @@
 ||abjalrq.cn^
 ||discover.absciex.com.cn^
 ||metric.acadsoc.com.cn^
-||disk.accord1key.cn^
 ||apilog-web.acfun.cn^
 ||apilog.app.acfun.cn^
 ||jscode.acg68.com^
@@ -1003,6 +1010,7 @@
 ||baifendian.com^
 ||baigm.com^
 ||www.baihe.com^
+||baihuwang.com^
 ||baike.biz^
 ||baitaiz.com^
 ||baiwv.com^
@@ -1239,7 +1247,7 @@
 ||c4d4.cn^
 ||caduka.cn^
 ||download.caihong.com^
-||pinggai5.caixin.com^
+||promote.caixin.com^
 ||ad.caiyunapp.com^
 ||api.callget.cn^
 ||smetrics.calvinklein.cn^
@@ -1551,7 +1559,6 @@
 ||events-dra.op.dbankcloud.com^
 ||events-drcn.op.dbankcloud.com^
 ||events-dre.op.dbankcloud.com^
-||events-drru.op.dbankcloud.com^
 ||grs.dbankcloud.com^
 ||httpdns.platform.dbankcloud.com^
 ||logservice-dra.platform.dbankcloud.com^
@@ -1646,7 +1653,6 @@
 ||zx.docin.com^
 ||doglobal.net^
 ||ads.doit.com.cn^
-||go.domino.com.cn^
 ||domob.cn^
 ||domob.com.cn^
 ||donchen501.cn^
@@ -1704,6 +1710,7 @@
 ||channel.api.duapp.com^
 ||bu1.duba.com^
 ||bu2.duba.com^
+||123.duba.net^
 ||cd001.www.duba.net^
 ||cd002.www.duba.net^
 ||cd003.www.duba.net^
@@ -2173,7 +2180,6 @@
 ||hacker.com.cn^
 ||haejkmm.cn^
 ||hats.haibao.cn^
-||countly-rel-usa.haimacloud.com^
 ||tj.haiwainet.cn^
 ||haixiutv.com^
 ||mo.haloapps.cn^
@@ -2276,7 +2282,6 @@
 ||ad-imp.hismarttv.com^
 ||api-4know-em.hismarttv.com^
 ||api-4know-eu.hismarttv.com^
-||api-cloudfalcon.hismarttv.com^
 ||api-gps.hismarttv.com^
 ||api-gps-em.hismarttv.com^
 ||api-gps-eu.hismarttv.com^
@@ -2286,7 +2291,6 @@
 ||api-launcher-eu.hismarttv.com^
 ||api-launcher-na.hismarttv.com^
 ||api-launcher-sa.hismarttv.com^
-||api-vidaaasst.hismarttv.com^
 ||api.eu.hismarttv.com^
 ||auth-em.hismarttv.com^
 ||auth-eu.hismarttv.com^
@@ -2388,7 +2392,6 @@
 ||matomo.huazhi.cloud^
 ||hubcloud.com.cn^
 ||hubiazhi.com^
-||hufajushi.top^
 ||huimee.net^
 ||huishenghuiying.com.cn^
 ||huiun.com^
@@ -2601,6 +2604,7 @@
 ||iscrv.com^
 ||m.ishangtong.com^
 ||analytics.islide.cc^
+||168.it168.com^
 ||adshow.it168.com^
 ||adshownew.it168.com^
 ||stat.it168.com^
@@ -2779,7 +2783,6 @@
 ||a.jyeoo.com^
 ||jyuskb.cn^
 ||jzdwl4.cn^
-||k2n0f.cn^
 ||log.kaayun.com^
 ||ds1.kaijia.com^
 ||adg.kajicam.com^
@@ -3637,7 +3640,6 @@
 ||ad.ourgame.com^
 ||ovnrmvg.cn^
 ||ads.oway.mobi^
-||jascce-pitant.owvett.cn^
 ||oyfnkle.cn^
 ||ozogame.com^
 ||p04qzl.cn^
@@ -3749,7 +3751,6 @@
 ||pp2.pptv.com^
 ||pqjprom.cn^
 ||pqzjki.cn^
-||pricklyrose.cn^
 ||prlioxb.cn^
 ||1.proewildfire.cn^
 ||prxymecb.cn^
@@ -4196,7 +4197,6 @@
 ||s11.cn^
 ||s304.cc^
 ||g.s8dj.com^
-||s981.cc^
 ||sacre.cn^
 ||404.safedog.cn^
 ||sagetrc.com^
@@ -4273,6 +4273,7 @@
 ||ads-shopping.shouqianba.com^
 ||d1.showself.com^
 ||shtatuo.cn^
+||1178.shucong.com^
 ||shuiguo.com^
 ||js.shunqi.com^
 ||shuzilm.cn^
@@ -4437,6 +4438,7 @@
 ||sofseo.cn^
 ||wct.softonic.cn^
 ||adx.sogaha.cn^
+||123.sogou.com^
 ||adsence.sogou.com^
 ||fair.sogou.com^
 ||files2.sogou.com^
