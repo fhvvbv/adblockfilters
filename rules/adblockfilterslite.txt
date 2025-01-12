@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter + EasyList (Optimized)、AdGuard Other Annoyances filter (Optimized)、AdGuard Popups filter (Optimized)、CJX's Annoyance List、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、HaGeZi's Ultimate mini DNS/Browser Blocklist、217heidai。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20250112110308
-! Last modified: 2025/01/12 11:03:08
-! Blocked Filters: 33744
+! Version: 20250112163339
+! Last modified: 2025/01/12 16:33:39
+! Blocked Filters: 33743
 !
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -688,6 +688,7 @@
 ###favCanvas
 ###fb-friends-recent-activity
 ###fbLikeButton
+###fb_loader
 ###fblikebox
 ###fc_foot > #f_skyf
 ###featuread
@@ -1066,7 +1067,6 @@
 ###share42
 ###shareBar
 ###shareBarTop
-###shareBarTop_gig_containerParent
 ###shareBox
 ###shareButtons
 ###shareFloat
@@ -3055,7 +3055,6 @@
 ##.daily-header-download
 ##.davwheat-ad
 ##.dcmads
-##.dcssb-float
 ##.ddd.ng-star-inserted
 ##.demand-supply
 ##.demo-wrapper[style="display:none;"] + div.fadeInDown[id]
@@ -3187,7 +3186,6 @@
 ##.facebook-small
 ##.facebook_like
 ##.facebook_like_box
-##.facebook_share_size_Small
 ##.facebooklike
 ##.fadeInUp.animated.Appbottom
 ##.fb-follow-button
@@ -3223,6 +3221,7 @@
 ##.fixed_ad
 ##.fixed_adslot
 ##.flare-button-icon
+##.flare-follow
 ##.flare-horizontal
 ##.flex-ad
 ##.flex-row > #propagandaLeft
@@ -4458,7 +4457,6 @@
 ##.social-tab
 ##.social-tools
 ##.social-twitter-alt2
-##.social-userbar-widget_container
 ##.social-userbar-widget_social_container_short
 ##.social-v
 ##.social-widget
@@ -4506,7 +4504,6 @@
 ##.socialtab
 ##.socialtools
 ##.socialwrap
-##.socico-list
 ##.softAdsBox
 ##.sosyal:not(body):not(html)
 ##.sosyal_buton
@@ -4689,7 +4686,6 @@
 ##.tmall_bg15
 ##.tmblr-iframe--follow-teaser
 ##.tmg-amp-social-share
-##.tmg-amp-social-share-twitter
 ##.tncls_ad
 ##.tncls_ad_250
 ##.tncls_ad_300
@@ -4845,6 +4841,7 @@
 ##.view-video-advertisements
 ##.view_ad
 ##.view_sns
+##.viral-button-pinterest
 ##.vjs-ima3-ad-container
 ##.vjs-social-share
 ##.vk-like-button
@@ -11029,6 +11026,7 @@ $xmlhttprequest,third-party,redirect-rule=noop.js,domain=bizjournals.com
 123animes.*,europixhd.pro,9xmovies.baby,vidhd.net,linksupto.me,ssrmovies.win,gdriveplayer.*,vidsrc.*,a2zapk.com,vidload.net,gomoviesfree.page,gomo.to##+js(abort-on-property-write, glxopen)
 123movies.*##+js(abort-on-property-read, preloader_tag)
 123movies.*##+js(set-constant, lck, true)
+123movies.sc,123freemovies.net###md-share
 123moviesfree.net,0123movie.net##.card-body > .row > .col-lg-3 > .d-grid > button.btn-primary
 123moviestv.me,skoob.com.br#$#.modal-backdrop { display: none !important; }
 123moviestv.me,skoob.com.br#$#body.modal-open { overflow: auto !important; }
@@ -11706,6 +11704,7 @@ $xmlhttprequest,third-party,redirect-rule=noop.js,domain=bizjournals.com
 4travel.jp,nagano-toshi-gas.co.jp##.snsWrap
 4travel.jp,symbolab.com##.shareIcon
 4wank.com,cambay.tv,daporn.com,fpo.xxx,hentai-moon.com,pornmix.org,scatxxxporn.com,xmateur.com##.top
+4yuuu.com,4meee.com##.snsShare__Wrap
 500.com###live_top_ad
 500.com##.tz_pai
 500.com##a[href*="sanyol.cn"]
@@ -15218,6 +15217,7 @@ atelevisao.com,mundokodi.com,gamesisart.ru,laleggepertutti.it##.clAdPlacementAnc
 athleticsirelandmerchandise.com/_t/open/$image
 atida.fr,vervemagazine.in##.block--newsletter
 atlantak.com,pythonforbeginners.com,collegetransitions.com##.widget_yikes_easy_mc_widget
+atlantak.com,samara24.ru##div[class*="share-button"]
 atlanticsuperstore.ca,fortinos.ca,loblaws.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#?#.css-0:has(> div > .chakra-linkbox:-abp-contains(sponsored))
 atoolbox.net###ad-coupon-search
 attacomsian.com,catwalkyourself.com,egyptianstreets.com,sklum.com,comicbook.com###newsletterModal
@@ -21466,7 +21466,6 @@ kobayashi.co.jp,cooldoji-pr.com,paradoxlive.jp,summertime-anime.com##.l-share
 kodami.it,lexplain.it,geopop.it##.js-share-toggle
 kodik.info,roboin.io,u.pcloud.link,drtuber.com,pubs.acs.org,m.glavcom.ua,calmclinic.com,infobae.com##.share_button
 koelner-philharmonie.de,testbook.com##.share-icons-list
-koimemo.com,4yuuu.com,4meee.com##.snsShare__Wrap
 kokoshka.*##+js(remove-attr, href, a[href]#clickfakeplayer)
 kokre.xyz,3dpchip.com,rshostinginfo.com,splashbase.co,ralli.ee,camcam.cc,nsw2u.*,mundovideoshd.com,ayatoon.com,sapphirescan.com,noblessetranslations.com,eventiavversinews.it,studybullet.com,e-kitapstore.com,studybullet.com,zapcourses.com##+js(set-constant, adbEnableForPage, false)
 kokre.xyz,euskalnews.tv,eventiavversinews.it,studybullet.com,e-kitapstore.com,studybullet.com,zapcourses.com##+js(no-fetch-if, ads-api.twitter.com)
@@ -24372,6 +24371,7 @@ rakyatku.com,jateng.inews.id##.ads_mobile_wrap
 rambler.ua,rambler.ru##+js(set-cookie, _blocker_hidden, 1)
 randomlists.com,gameinfo.io,ernesto.it,cdromance.com,linkjust.com,updatesmarugujarat.in,mexashare.com,links4u.me,linku.us,skips.link,freemcserver.net,micloudfiles.com,onvasortir.com,fcportables.com,thewindowsclub.com,magesy.be,javadecompilers.com,trackitonline.ru,socks24.org,sslproxies24.top,uploadcloud.pro,bravofly.com,seomafia.net,uploadx.link,socketloop.com,fileoops.com,medicalnewstoday.com,hdwallpapers.in,short.am,adbull.me,gofobo.com,file-upload.com,up-4ever.com,majesy.org,majesy.com,magesy.eu,magesy.blog,informer.com,cmacapps.com,computerera.co.in,download.mokeedev.com,file-upload.cc,genbird.com,shink.in,urlex.org,livenewschat.eu,onlinemschool.com,download.pixelexperience.org##.adsbygoogle
 rankingoo.net,mediapen.com##.snsarea
+raportkolejowy.pl,koleje-wielkopolskie.com.pl##.wp-flybox_tab
 rasp.yandex.*##.TravelHotelsBanner
 rat.xxx,zbporn.co,zbporn.com,zbporn.com.bd,zbporn.com.np,zbporn.net,zbporn.online,zbporn.tv##.mob-nat-spot
 rat.xxx,zbporn.co,zbporn.com,zbporn.com.bd,zbporn.com.np,zbporn.net,zbporn.online,zbporn.tv##.under-video-spot
@@ -26340,7 +26340,6 @@ tropica.cn##.wp1.a_t
 trovit.ae,trovit.be,trovit.ca,trovit.ch,trovit.cl,trovit.co.cr,trovit.co.id,trovit.co.in,trovit.co.ke,trovit.co.nz,trovit.co.uk,trovit.co.ve,trovit.co.za,trovit.com,trovit.com.br,trovit.com.co,trovit.com.ec,trovit.com.hk,trovit.com.kw,trovit.com.mx,trovit.com.pa,trovit.com.pe,trovit.com.pk,trovit.com.qa,trovit.com.sg,trovit.com.tr,trovit.com.tw,trovit.com.uy,trovit.com.vn,trovit.cz,trovit.dk,trovit.es,trovit.fr,trovit.hu,trovit.ie,trovit.it,trovit.jp,trovit.lu,trovit.ma,trovit.my,trovit.ng,trovit.nl,trovit.no,trovit.ph,trovit.pl,trovit.pt,trovit.ro,trovit.se,trovitargentina.com.ar##.alertBox
 trovit.it,lostiempos.com,nazya.com,firstthings.com###cboxOverlay
 trthaber.com,babyclub.de##.social-links-container
-truckeronroad.com,rzeszow-news.pl,lwowecki.info###sos_fb_slider
 trueachievements.com,ign.com##+js(abort-current-script, document.addEventListener, isIframeNetworking)
 trueachievements.com,truesteamachievements.com,truetrophies.com##.lb_holder
 trueachievements.com,truesteamachievements.com,truetrophies.com##.nn_player_w
@@ -26887,7 +26886,6 @@ waipian1.com,waipian2.com,waipian3.com,waipian4.com,waipian5.com,waipian6.com,wa
 waipian1.com,waipian2.com,waipian3.com,waipian4.com,waipian5.com,waipian6.com,waipian7.com,waipian8.com,waipian9.com,waipian10.com,waipian11.com,waipian12.com,waipian13.com,waipian14.com,waipian15.com,waipian16.com,waipian17.com,waipian18.com,waipian19.com,waipian20.com,waipian21.com,waipian22.com,waipian23.com,waipian24.com,waipian25.com,waipian26.com,waipian27.com,waipian28.com,waipian29.com,waipian30.com,waipian31.com,waipian32.com,waipian33.com,waipian34.com,waipian35.com,waipian36.com,waipian37.com,waipian38.com,waipian39.com,waipian40.com#$#a[href*=".umtrack.com/"] { position: absolute !important; left: -3000px !important; }
 waipian1.com,waipian2.com,waipian3.com,waipian4.com,waipian5.com,waipian6.com,waipian7.com,waipian8.com,waipian9.com,waipian10.com,waipian11.com,waipian12.com,waipian13.com,waipian14.com,waipian15.com,waipian16.com,waipian17.com,waipian18.com,waipian19.com,waipian20.com,waipian21.com,waipian22.com,waipian23.com,waipian24.com,waipian25.com,waipian26.com,waipian27.com,waipian28.com,waipian29.com,waipian30.com,waipian31.com,waipian32.com,waipian33.com,waipian34.com,waipian35.com,waipian36.com,waipian37.com,waipian38.com,waipian39.com,waipian40.com#@#.player-rm > a[target="_blank"]
 waipian1.com,waipian2.com,waipian3.com,waipian4.com,waipian5.com,waipian6.com,waipian7.com,waipian8.com,waipian9.com,waipian10.com,waipian11.com,waipian12.com,waipian13.com,waipian14.com,waipian15.com,waipian16.com,waipian17.com,waipian18.com,waipian19.com,waipian20.com,waipian21.com,waipian22.com,waipian23.com,waipian24.com,waipian25.com,waipian26.com,waipian27.com,waipian28.com,waipian29.com,waipian30.com,waipian31.com,waipian32.com,waipian33.com,waipian34.com,waipian35.com,waipian36.com,waipian37.com,waipian38.com,waipian39.com,waipian40.com#@#a[href*=".umtrack.com/"]
-walletsrates.com,infoeda.com##.wpsr-share-icons
 wallstreetcn.com##div.ad,ins.adsbygoogle,div.ad-box.ad-side,div.head-event-wrapper,a#app-campaign,DIV.side-box > DIV.row-fluid > DIV.span12,.side-money,.node-main-ad
 wallstreetcn.com#@#.banner
 walmart.*##[data-testid="carousel-ad"]
@@ -27303,6 +27301,7 @@ wsobv.com,foresight.jp##.footer-fixed
 wss://*.xyz:*?x=$third-party
 wss://*/api/wss/GetNotReadCount$third-party
 wtools.io,camslib.com##button[data-target="#shareModal"]
+wtwc40.com,cwbaltimore.com,fox38corpuschristi.com,fox47.com,foxkansas.com,foxrichmond.com,kbsi23.com,kdsm17.com,raleighcw.com,star64.tv,wcti12.com,wpgh53.com,wtto21.com,wutv29.com##.social-share-tiles
 wuhaozhan.net$$div[class="item-box"]
 wuhaozhan.net$$dl[class="item-fifth-dd shadow"]
 wuxiaworld.com,healthline.com##div[adonis-marker]
