@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter + EasyList (Optimized)、AdGuard Other Annoyances filter (Optimized)、AdGuard Popups filter (Optimized)、CJX's Annoyance List、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、HaGeZi's Ultimate mini DNS/Browser Blocklist、217heidai。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20250113110041
-! Last modified: 2025/01/13 11:00:41
-! Blocked domains: 5865
+! Version: 20250113164125
+! Last modified: 2025/01/13 16:41:25
+! Blocked domains: 5861
 !
 00xvppy.cn
 img.0279.net
@@ -1248,6 +1248,7 @@ c4d4.cn
 caduka.cn
 download.caihong.com
 pinggai5.caixin.com
+promote.caixin.com
 ad.caiyunapp.com
 api.callget.cn
 smetrics.calvinklein.cn
@@ -1793,6 +1794,7 @@ easyrecoverychina.com
 easytomessage.com
 ebjvu.cn
 eblnzoq.cn
+ebqf.cn
 jb.ecar168.cn
 eclicks.cn
 ecudsc.cn
@@ -1985,7 +1987,6 @@ gbitcoin.cn
 gcbflvx.cn
 gccnntq.cn
 gdicoou.com
-usps.gdtcw.cn
 gdtimg.com
 canadapost-postescanada.gdwsw.cn
 t.geedai.com
@@ -4192,9 +4193,7 @@ rzlib.net
 rznscya.cn
 rzsgxmm.cn
 s11.cn
-s304.cc
 g.s8dj.com
-s981.cc
 sacre.cn
 404.safedog.cn
 sagetrc.com
@@ -4237,7 +4236,6 @@ sdvfvgj.cn
 1640831964042.se-life.cn
 analytics.apps.seabroadnet.com
 sellfox.com
-senbiaojita.com
 sensorsdata.cn
 logstat.t.sfht.com
 m.sfscooter.cn
@@ -4732,7 +4730,6 @@ i.tianqi.com
 ip.tianqiapi.com
 datas.tianqistatic.com
 yptqys.tianqistatic.com
-tianshidun.cn
 tianshilv.cn
 api-ads.tiantianqutao.com
 tianyinsoft.top
@@ -5694,7 +5691,6 @@ api-analytics-cn3.zepp.com
 api-analytics-de.zepp.com
 api-analytics-us.zepp.com
 api-analytics-us3.zepp.com
-app-analytics.zepp.com
 app-analytics-de.zepp.com
 app-analytics-ru.zepp.com
 app-analytics-sg.zepp.com
