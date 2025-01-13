@@ -1,15 +1,16 @@
 ![Adblock Plus 2.0]
-! Checksum: Z1U7c4ru1mSiszSy6iTU6g
-! Diff-Path: ../patches/21_optimized/21_optimized-s-1736754165-3600.patch
+! Checksum: qgMhuixjHt1AhZNxmzB2Sg
+! Diff-Path: ../patches/21_optimized/21_optimized-s-1736765133-3600.patch
 ! Title: AdGuard Other Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.29.78
-! TimeUpdated: 2025-01-13T07:38:55+00:00
+! Version: 2.0.29.81
+! TimeUpdated: 2025-01-13T10:41:11+00:00
 ! Expires: 5 days (update frequency)
 !######### Annoying elements (not ads)
 instagram.com#$?#div[class]:has(> div[class]:first-child > a[href="/explore/people/"]) { position: absolute !important; left: -3000px !important; }
 instagram.com#?#div[style*="opacity"] > div > div[class]:has(> div[class] > div[style] > div[style] > div[aria-labelledby] > div[class]:last-child > button)
 instagram.com##._aagw:empty
+zalando.de###main-content div:has(> div[data-experiment-hint]:only-child)
 gamereactor.eu###videoContainer.playersmall
 softpedia.com##.hp_essentials
 baidu.com##+js(remove-attr, placeholder, .quickdelete-wrap > input)
@@ -1413,6 +1414,8 @@ rbc.ru#?#.js-index-central-column > div[data-publisher-index]:has(> div.js-index
 rbc.ru##.fox-fallback[style="width: 300px; height: 600px;"]
 book.oricon.co.jp##a[href^="https://apay-up-banner.com?merchantId="] > img
 ||apay-up-banner.com^$image,third-party,domain=book.oricon.co.jp
+bitchute.com##.q-banner
+dailymail.co.uk##.link-bogr2 > li[data-ad-marker-group]:has(> a[href^="/shopping-uk/"])
 itsfoss.com###announcement-bar-root
 ruta0.com##.ad
 photo-ac.com##.section-creator-ads
