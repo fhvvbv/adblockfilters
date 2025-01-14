@@ -1,11 +1,11 @@
 !
 ! Title: AdBlock InviZible
-! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Other Annoyances filter (Optimized)、AdGuard Popups filter (Optimized)、CJX's Annoyance List、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、217heidai、anti-ad、AdRules、qq5460168。
+! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Other Annoyances filter (Optimized)、AdGuard Popups filter (Optimized)、CJX's Annoyance List、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、217heidai、anti-ad、AdRules、qq5460168、blackmatrix7。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomain.txt
-! Version: 20250114224218
-! Last modified: 2025/01/14 22:42:18
-! Blocked domains: 211691
+! Version: 20250115004004
+! Last modified: 2025/01/15 00:40:04
+! Blocked domains: 211693
 !
 0-0.fr
 0-02.net
@@ -36453,6 +36453,7 @@ www2.bomi.org
 analytics.bomiv.com
 track.bomiv.com
 mail.bomloginset.com
+bomqonpfzx.com
 partner.bomtonbeauty.cz
 bomx.xyz
 a8clk.orders.bon-book.jp
@@ -66358,6 +66359,7 @@ eejersenset.net
 eejgzgtkbk.pages.dev
 eejipukaijy.net
 eekeeghoolsy.com
+eekqdetpwnlj.com
 eekreeng.com
 eekrogrameety.net
 eeksoabo.com
@@ -135361,7 +135363,6 @@ ntidn.click
 ntjlu.wang
 eed.ntjrh.com
 ntk-indo.com
-ntkimg.cloud
 smetrics.ntkm2.com
 ntl-verif.com
 tracking.ntl.no
@@ -151191,7 +151192,6 @@ storage.psstgccint.com
 psstt.com
 pssy.xyz
 pstarv.cn
-ad-creative.pstatic.net
 naverpa-phinf.pstatic.net
 naverwebtoon-phinf.pstatic.net
 searchad-phinf.pstatic.net
@@ -190476,6 +190476,7 @@ ubish.com
 ubixioe.com
 ubizdata.com
 mozp.ubjoubj.shop
+data.ublock-browser.com
 ublock.org
 ublocker-chrome.com
 ublockerext.com
@@ -202884,6 +202885,7 @@ wittyshack.com
 axp.wivb.com
 wivo2gaza.com
 wivtuhoftat.com
+wiwarrkazg.com
 analytics.wiwide.com
 data-21f7fa6716.wiwo.de
 data-b0980db7ec.wiwo.de

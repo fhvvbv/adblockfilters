@@ -1,11 +1,11 @@
 !
 ! Title: AdBlock Filter
-! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Other Annoyances filter (Optimized)、AdGuard Popups filter (Optimized)、CJX's Annoyance List、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、217heidai、anti-ad、AdRules、qq5460168。
+! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Other Annoyances filter (Optimized)、AdGuard Popups filter (Optimized)、CJX's Annoyance List、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、217heidai、anti-ad、AdRules、qq5460168、blackmatrix7。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilters.txt
-! Version: 20250114224217
-! Last modified: 2025/01/14 22:42:17
-! Blocked Filters: 60301
+! Version: 20250115004003
+! Last modified: 2025/01/15 00:40:03
+! Blocked Filters: 60304
 !
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -24403,7 +24403,7 @@ h-ken.net##.snsButtonList
 h-navi.jp###ModalContentColumnOnScroll
 h-pon.doorblog.jp##.plugin-extra
 h-taikendan.net##.AdRectangle
-h178.com##div[class^="substitute-area-"] > div
+h178.com###StickyAd
 h178.com##div[style^="box-sizing:border-box; text-align:center; width:100%; height:270px;"]
 h1g.jp##div[align="center"] > a[href^="https://hb.afl.rakuten.co.jp/"]
 h1g.jp##div[id^="div_fam_async_"]
@@ -25850,6 +25850,9 @@ icbc.com.cn###kv-admain > div[id$="_1900_380"]
 icbc.com.cn##.action_Y_more
 icbc.com.cn#@#.adLeft
 icbc.com.cn#@#.adRight
+icebreaker.com#$##modal-mask { display: none !important; }
+icebreaker.com#$#.facile-modal-open { overflow: auto !important; }
+icebreaker.com#$#.global-email-popup-box { display: none !important; }
 icegames.store##.social-sharing-wrap
 ichannela.com##+js(remove-class, hide-controls, .video-js)
 ichannela.com#$#.pg_detail .video-js .vjs-overlay:has(.vjs-overlay-login) { display: none !important; }
@@ -34259,7 +34262,6 @@ nicovideo.jp##.TagRelatedBannerContainer.Card
 nicovideo.jp##.TwitterShareButton
 nicovideo.jp##.article-share-footer
 nicovideo.jp##.watch-ActionMenu_Share
-nicovideo.jp##div[class*="anim-n_slideFadeInFromBottom"]:not([aria-label]):has(a[data-anchor-area$="floating_premium_banner"])
 nicovideo.jp#%#//scriptlet('prevent-fetch', 'stella.nicovideo.jp')
 nicovideo.jp#%#//scriptlet('prevent-xhr', 'stella.nicovideo.jp')
 nid.naver.com#@#.sns_list
@@ -52447,6 +52449,7 @@ zzzyk.com###Tinfo
 ||fpdisplay.com/templates/default/js/palyflash_
 ||fpdisplay.com/upload/n_ad/
 ||francais.rt.com/nbc-stats/
+||france24.com/bon.jour?
 ||frankonia.de/js/controller/open-newsletter-layer.js
 ||fre.everleyeve.com:23525/v^$domain=avtbf.com
 ||freebies.indiegala.com^$removeparam=ref
