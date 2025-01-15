@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Other Annoyances filter (Optimized)、AdGuard Popups filter (Optimized)、CJX's Annoyance List、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、217heidai、anti-ad、AdRules、qq5460168、blackmatrix7。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20250115004004
-! Last modified: 2025/01/15 00:40:04
-! Blocked domains: 6376
+! Version: 20250115103826
+! Last modified: 2025/01/15 10:38:26
+! Blocked domains: 6364
 !
 00xvppy.cn
 011.com
@@ -1964,7 +1964,6 @@ eap.big5.enorth.com.cn
 enterprisebaffle.cn
 ad.entgroup.cn
 js.entm.top
-9cb6lc.entyaf.cn
 jquery.envi-met.com.cn
 eoyqzzk.cn
 epaes.com.cn
@@ -2221,7 +2220,6 @@ cpux.gmud.top
 ad.gmw.cn
 channel-analysis-js.gmw.cn
 go2yd.com
-gocvawe.cn
 gocye.com
 godloveme.cn
 goforandroid.com
@@ -3416,7 +3414,6 @@ webtarget.logitechg.com.cn
 lomark.cn
 looyu.com
 www.loprr.cn
-lostheaven.com.cn
 lotuseed.com
 49453k0l.vr.loveota.com
 49453k0l.vs.loveota.com
@@ -5299,11 +5296,6 @@ uxcnhsf.cn
 uxlqwra.cn
 uxlvk.cn
 v2.uyan.cc
-bldizt.uyjwizw.cn
-dhlgoy.uyjwizw.cn
-pjewo.uyjwizw.cn
-qvklbro.uyjwizw.cn
-zkifizdsy.uyjwizw.cn
 uyunad.com
 uzzf.com
 v-56.com
@@ -6016,8 +6008,6 @@ yiqifa.com
 11.yiqig.cn
 yitongwl.cn
 info.yitsoftware.com
-bruzvrjfxv.yitus.cn
-ppjtadoy.yitus.cn
 yiwk.com
 ad.yixin.im
 adx.yixin.im
@@ -6198,7 +6188,6 @@ api-analytics-cn3.zepp.com
 api-analytics-de.zepp.com
 api-analytics-us.zepp.com
 api-analytics-us3.zepp.com
-app-analytics.zepp.com
 app-analytics-de.zepp.com
 app-analytics-ru.zepp.com
 app-analytics-sg.zepp.com
@@ -6338,6 +6327,7 @@ wappv.zol.com.cn
 ydjs.zol.com.cn
 h5log.zongheng.com
 log.zongheng.com
+static.zongheng.com
 zonst.com
 adm.zookingsoft.com
 zoosnet.net
@@ -6347,8 +6337,6 @@ zowralr.cn
 zp0573.cn
 zp22.cn
 zpsetu.cn
-bbefka.zpzaj.cn
-roqkxf.zpzaj.cn
 zsjpi.cn
 zsjxwj.com
 steam.zssjsq.com

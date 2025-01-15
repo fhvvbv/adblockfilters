@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Other Annoyances filter (Optimized)、AdGuard Popups filter (Optimized)、CJX's Annoyance List、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、217heidai、anti-ad、AdRules、qq5460168、blackmatrix7。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockfilterslite.txt
-! Version: 20250115004003
-! Last modified: 2025/01/15 00:40:03
-! Blocked Filters: 26237
+! Version: 20250115103826
+! Last modified: 2025/01/15 10:38:26
+! Blocked Filters: 26231
 !
 #%#var AG_abortInlineScript=function(g,b,c){var d=function(){if("currentScript"in document)return document.currentScript;var a=document.getElementsByTagName("script");return a[a.length-1]},e=Math.random().toString(36).substr(2,8),h=d();AG_defineProperty(b,{beforeGet:function(){var a=d();if(a instanceof HTMLScriptElement&&a!==h&&""===a.src&&g.test(a.textContent))throw c&&console.warn("AdGuard aborted execution of an inline script"),new ReferenceError(e);}});var f=window.onerror;window.onerror=function(a){if("string"===typeof a&&-1!==a.indexOf(e))return c&&console.warn("AdGuard has caught window.onerror: "+b),!0;if(f instanceof Function)return f.apply(this,arguments)}};
 #%#var AG_abortOnPropertyRead=function(a,b){var c=Math.random().toString(36).substr(2,8);AG_defineProperty(a,{beforeGet:function(){b&&console.warn("AdGuard aborted property read: "+a);throw new ReferenceError(c);}});var d=window.onerror;window.onerror=function(e){if("string"===typeof e&&-1!==e.indexOf(c))return b&&console.warn("AdGuard has caught window.onerror: "+a),!0;if(d instanceof Function)return d.apply(this,arguments)}};
@@ -11029,6 +11029,7 @@ businessyee.com,goldderby.com,heraldodemexico.com.mx,pngtree.com,vidmore.com,pas
 buttondown.email,the-village.ru,psychologies.ru###subscribe-form
 buzzfeednews.com,aol.com##div[class^="newsletter-"]
 bytecdn.cn/ta/resource/v0/analytics.js
+bytes.vadelabs.com,todayonmac.com,blog.alexellis.io##.gh-subscribe
 byxx.com##.byzwPC-banner-ADscroll
 byxx.com##.cataAD
 c-o-k.ru,archiproducts.com##.banner-wrapper
@@ -12309,6 +12310,7 @@ eastmoney.com##div[id^="em_important_"]
 eastmoney.com##div[id^="flow-ad-"]
 eastmoney.com##div[style="width: 300px; height: 250px; margin-top: 10px;"]
 eastmoney.com##div[style^="position: fixed; z-index: 100000; top:"]
+eastmoney.com##div[style^="position: fixed; z-index:"]
 eastmoney.com##iframe[class="lyad"]
 eastmoney.com##iframe[src*=".eastmoney.com/banner/"]
 eastmoney.com##iframe[src^="//fund.eastmoney.com/trade/hqb_hq.html"]
@@ -18971,7 +18973,6 @@ tms-outsource.com,webspoon.ru##.ShareBlock
 tmtpost.com##.open-app
 tmtpost.com/public/images/app_download.png
 today-line-me.cdn.ampproject.org,today.line.me##.midAdModule-root
-todayonmac.com,blog.alexellis.io##.gh-subscribe
 todayonmac.com,kyivindependent.com,time2hack.com,techblog.nexxwave.eu,blobstreaming.org,quillette.com,creativerly.com,axion.zone,crio.do###ghost-portal-root .gh-portal-triggerbtn-iframe
 tokai-tv.com,career.levtech.jp,info-maimai.sega.jp,news.mynavi.jp##.articleSns
 tokeibegin.jp,phantom-film.com##.shareSection
@@ -25217,13 +25218,6 @@ zzzyk.com###Tinfo
 ||static.youku.com/*/index/js/iresearch.js
 ||static.youku.com/*/js/cps.js
 ||static.yxdown.com/cj/$script
-||static.zongheng.com/*/ad$script
-||static.zongheng.com/upload/*ds/column/$script,image
-||static.zongheng.com/upload/fpbds/column/
-||static.zongheng.com/upload/recommend/game/201$image
-||static.zongheng.com^*/adClickStat.js
-||static.zongheng.com^*/ad_click.js
-||static.zongheng.com^*/logger.min.js
 ||staticfile.qq.com/datong/$script
 ||staticfile.qq.com/qimei/$script
 ||stats*.credit-cooperatif.coop^

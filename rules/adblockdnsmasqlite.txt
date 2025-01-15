@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Other Annoyances filter (Optimized)、AdGuard Popups filter (Optimized)、CJX's Annoyance List、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、217heidai、anti-ad、AdRules、qq5460168、blackmatrix7。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20250115004004
-# Last modified: 2025/01/15 00:40:04
-# Blocked domains: 6376
+# Version: 20250115103826
+# Last modified: 2025/01/15 10:38:26
+# Blocked domains: 6364
 #
 local=/00xvppy.cn/
 local=/011.com/
@@ -1964,7 +1964,6 @@ local=/eap.big5.enorth.com.cn/
 local=/enterprisebaffle.cn/
 local=/ad.entgroup.cn/
 local=/js.entm.top/
-local=/9cb6lc.entyaf.cn/
 local=/jquery.envi-met.com.cn/
 local=/eoyqzzk.cn/
 local=/epaes.com.cn/
@@ -2221,7 +2220,6 @@ local=/cpux.gmud.top/
 local=/ad.gmw.cn/
 local=/channel-analysis-js.gmw.cn/
 local=/go2yd.com/
-local=/gocvawe.cn/
 local=/gocye.com/
 local=/godloveme.cn/
 local=/goforandroid.com/
@@ -3416,7 +3414,6 @@ local=/webtarget.logitechg.com.cn/
 local=/lomark.cn/
 local=/looyu.com/
 local=/www.loprr.cn/
-local=/lostheaven.com.cn/
 local=/lotuseed.com/
 local=/49453k0l.vr.loveota.com/
 local=/49453k0l.vs.loveota.com/
@@ -5299,11 +5296,6 @@ local=/uxcnhsf.cn/
 local=/uxlqwra.cn/
 local=/uxlvk.cn/
 local=/v2.uyan.cc/
-local=/bldizt.uyjwizw.cn/
-local=/dhlgoy.uyjwizw.cn/
-local=/pjewo.uyjwizw.cn/
-local=/qvklbro.uyjwizw.cn/
-local=/zkifizdsy.uyjwizw.cn/
 local=/uyunad.com/
 local=/uzzf.com/
 local=/v-56.com/
@@ -6016,8 +6008,6 @@ local=/yiqifa.com/
 local=/11.yiqig.cn/
 local=/yitongwl.cn/
 local=/info.yitsoftware.com/
-local=/bruzvrjfxv.yitus.cn/
-local=/ppjtadoy.yitus.cn/
 local=/yiwk.com/
 local=/ad.yixin.im/
 local=/adx.yixin.im/
@@ -6198,7 +6188,6 @@ local=/api-analytics-cn3.zepp.com/
 local=/api-analytics-de.zepp.com/
 local=/api-analytics-us.zepp.com/
 local=/api-analytics-us3.zepp.com/
-local=/app-analytics.zepp.com/
 local=/app-analytics-de.zepp.com/
 local=/app-analytics-ru.zepp.com/
 local=/app-analytics-sg.zepp.com/
@@ -6338,6 +6327,7 @@ local=/wappv.zol.com.cn/
 local=/ydjs.zol.com.cn/
 local=/h5log.zongheng.com/
 local=/log.zongheng.com/
+local=/static.zongheng.com/
 local=/zonst.com/
 local=/adm.zookingsoft.com/
 local=/zoosnet.net/
@@ -6347,8 +6337,6 @@ local=/zowralr.cn/
 local=/zp0573.cn/
 local=/zp22.cn/
 local=/zpsetu.cn/
-local=/bbefka.zpzaj.cn/
-local=/roqkxf.zpzaj.cn/
 local=/zsjpi.cn/
 local=/zsjxwj.com/
 local=/steam.zssjsq.com/

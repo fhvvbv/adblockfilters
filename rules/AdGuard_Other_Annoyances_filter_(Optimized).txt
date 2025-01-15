@@ -1,15 +1,17 @@
 ![Adblock Plus 2.0]
-! Checksum: 9TTE+casd9+PRwVxAlfXwA
-! Diff-Path: ../patches/21_optimized/21_optimized-s-1736862488-3600.patch
+! Checksum: jJO8MQt22cvrtYTIFlhXRQ
+! Diff-Path: ../patches/21_optimized/21_optimized-s-1736898171-3600.patch
 ! Title: AdGuard Other Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages that do not fall under the popular categories of annoyances.
-! Version: 2.0.29.86
-! TimeUpdated: 2025-01-14T13:44:21+00:00
+! Version: 2.0.29.88
+! TimeUpdated: 2025-01-14T23:38:53+00:00
 ! Expires: 5 days (update frequency)
 !######### Annoying elements (not ads)
 instagram.com#$?#div[class]:has(> div[class]:first-child > a[href="/explore/people/"]) { position: absolute !important; left: -3000px !important; }
 instagram.com#?#div[style*="opacity"] > div > div[class]:has(> div[class] > div[style] > div[style] > div[aria-labelledby] > div[class]:last-child > button)
 instagram.com##._aagw:empty
+||20.detik.com/embed/$subdocument,~third-party
+sport.detik.com##.detail__body-text > div.aevp:has(> div.pip-vid.sisip_video_ds)
 zalando.de###main-content div:has(> div[data-experiment-hint]:only-child)
 gamereactor.eu###videoContainer.playersmall
 softpedia.com##.hp_essentials
@@ -914,6 +916,8 @@ habr.com##div.tm-articles-list > div.tm-articles-list__after-article:has(#promo_
 habr.com##section.tm-block_spacing-around:has(> div.tm-block__body > div.tm-promo-block__content-wrapper)
 habr.com##ul.tm-article-list-block__list > li.tm-article-list-block__item:has(> div.tm-promo-post-link)
 habr.com#?#section.tm-block_spacing-around:has(> header > div > h2:contains(Ближайшие события))
+any.run##.regular-banner:has(> a[href*="intelligence.any.run"])
+flickr.com##.sub-photo-submoola-banner-view
 gameinn.jp##a[href*="gameinn.jp/gameranking"] > img
 news.tennis365.net##.text > p > b:has(> a[href^="https://bit.ly/"])
 news.tennis365.net##.text > p > b:has(> a[href^="https://bit.ly/"]) + br
