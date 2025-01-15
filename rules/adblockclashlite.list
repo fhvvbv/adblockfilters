@@ -3,9 +3,9 @@
 # Description: 适用于 Clash 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Other Annoyances filter (Optimized)、AdGuard Popups filter (Optimized)、CJX's Annoyance List、xinggsf mv、xinggsf rule、ADgk filter、AdGuard Chinese filter、AdGuard URL Tracking filter、AdGuard Tracking Protection filter、YanFung Mobile filter、Adfilter、NoAppDownload、Ad Filter J、jiekouAD、AdGuard Social、AdGuard 移动广告过滤器、malware-filter_Malicious-URL-Blocklist、217heidai、anti-ad、AdRules、qq5460168、blackmatrix7。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockclashlite.list
-# Version: 20250115103826
-# Last modified: 2025/01/15 10:38:26
-# Blocked domains: 6364
+# Version: 20250115163826
+# Last modified: 2025/01/15 16:38:26
+# Blocked domains: 6373
 #
 DOMAIN-SUFFIX,00xvppy.cn
 DOMAIN-SUFFIX,011.com
@@ -226,17 +226,23 @@ DOMAIN-SUFFIX,ad.jia.360.cn
 DOMAIN-SUFFIX,api.shuaji.360.cn
 DOMAIN-SUFFIX,c.mse.360.cn
 DOMAIN-SUFFIX,c.sayhi.360.cn
-DOMAIN-SUFFIX,click.stat.hao.360.cn
+DOMAIN-SUFFIX,care.help.360.cn
 DOMAIN-SUFFIX,down.360.cn
+DOMAIN-SUFFIX,h5.mse.360.cn
+DOMAIN-SUFFIX,hao.360.cn
 DOMAIN-SUFFIX,huid.ad.360.cn
 DOMAIN-SUFFIX,huodong.mobilem.360.cn
 DOMAIN-SUFFIX,jiagu.360.cn
 DOMAIN-SUFFIX,lianmeng.360.cn
 DOMAIN-SUFFIX,mclean.f.360.cn
 DOMAIN-SUFFIX,msch.f.360.cn
+DOMAIN-SUFFIX,msoftdl.360.cn
+DOMAIN-SUFFIX,mvconf.f.360.cn
+DOMAIN-SUFFIX,openbox.mobilem.360.cn
 DOMAIN-SUFFIX,papi.look.360.cn
 DOMAIN-SUFFIX,qurl.f.360.cn
 DOMAIN-SUFFIX,s.360.cn
+DOMAIN-SUFFIX,sd.360.cn
 DOMAIN-SUFFIX,sdk.look.360.cn
 DOMAIN-SUFFIX,se.360.cn
 DOMAIN-SUFFIX,shouji.360.cn
@@ -244,7 +250,10 @@ DOMAIN-SUFFIX,show.look.360.cn
 DOMAIN-SUFFIX,soft.data.weather.360.cn
 DOMAIN-SUFFIX,stat.m.360.cn
 DOMAIN-SUFFIX,tf.360.cn
+DOMAIN-SUFFIX,u.360.cn
 DOMAIN-SUFFIX,wan.360.cn
+DOMAIN-SUFFIX,wot.360.cn
+DOMAIN-SUFFIX,yasuo.360.cn
 DOMAIN-SUFFIX,yule.360.com
 DOMAIN-SUFFIX,360ads.com
 DOMAIN-SUFFIX,360app.cn
@@ -3906,7 +3915,7 @@ DOMAIN-SUFFIX,onethingpcs.com
 DOMAIN-SUFFIX,oneway.mobi
 DOMAIN-SUFFIX,svibeacon.onezapp.com
 DOMAIN-SUFFIX,vibeaconstr.onezapp.com
-DOMAIN-SUFFIX,onjh.cn
+DOMAIN-SUFFIX,ptt-gov.onjh.cn
 DOMAIN-SUFFIX,online.sh.cn
 DOMAIN-SUFFIX,fpbcode.onlinedown.net
 DOMAIN-SUFFIX,olpv.onlylady.com

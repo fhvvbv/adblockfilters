@@ -1,9 +1,9 @@
-! Checksum: Z3lJbbSRppucBYsR8P9+3A
-! Diff-Path: ../patches/11/11-s-1736873135-3600.patch
+! Checksum: avfdBzVM8N+8NOE7b+1KfA
+! Diff-Path: ../patches/11/11-s-1736927135-3600.patch
 ! Title: AdGuard Mobile Ads filter
 ! Description: Filter for all known mobile ad networks. Useful for mobile devices.
-! Version: 2.0.57.47
-! TimeUpdated: 2025-01-14T16:40:23+00:00
+! Version: 2.0.57.49
+! TimeUpdated: 2025-01-15T07:40:48+00:00
 ! Expires: 5 days (update frequency)
 ! Homepage: https://github.com/AdguardTeam/AdGuardFilters
 ! License: https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE
@@ -2500,6 +2500,10 @@ sp.manga.nicovideo.jp##div[style^="--ads-width:"]
 !
 ! SECTION: Regular rules
 !
+zerohedge.com##.content > #footer:not(:has(> *))
+zerohedge.com##div[class^="NodeContent_body_"] > .in-content:empty
+bunshun.jp##.ats_custom_inarticle_wrapper
+bunshun.jp##div[id^="taboola-mid-article-thumbnails-"]
 pornhub.com##.watchpageAd
 h178.com###StickyAd
 f95zone.to##.sidePanel__tabPanels ul.offCanvasMenu-list > li:has(> div.offCanvasMenu-linkHolder > a.offCanvasMenu-link[target="_blank"])
